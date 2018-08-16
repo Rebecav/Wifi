@@ -1,0 +1,671 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "gsr2-xq9e",
+      "name" : "Approved Link NYC Kiosk Locations",
+      "averageRating" : 0,
+      "category" : "Social Services",
+      "createdAt" : 1512767295,
+      "description" : "This dataset lists locations where a LinkNYC kiosk has been approved but is not yet installed.  It includes existing payphones that will be replaced as well as new locations that have been reviewed by community and elected officials.  Although these sites meet all requirements, some of them might not ultimately be built because of issues that may arise during installation.  The dataset is updated weekly.",
+      "displayType" : "table",
+      "downloadCount" : 408,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1533847602,
+      "locale" : "en_US",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 29462951,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1533846729,
+      "publicationGroup" : 14678325,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1533846693,
+      "rowsUpdatedBy" : "d5dp-fses",
+      "tableId" : 15440754,
+      "totalTimesRated" : 0,
+      "viewCount" : 550,
+      "viewLastModified" : 1533846729,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 370535322,
+        "name" : "CB Link ID",
+        "dataTypeName" : "text",
+        "fieldName" : "cb_link_id",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 57872222,
+        "width" : 220,
+        "format" : { }
+      }, {
+        "id" : 370535323,
+        "name" : "Link Site ID",
+        "dataTypeName" : "text",
+        "fieldName" : "link_site_id",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 57872223,
+        "width" : 244,
+        "format" : { }
+      }, {
+        "id" : 370535324,
+        "name" : "Street Address",
+        "dataTypeName" : "text",
+        "fieldName" : "street_address",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 57872224,
+        "width" : 268,
+        "format" : { }
+      }, {
+        "id" : 370535325,
+        "name" : "Cross Street 1",
+        "dataTypeName" : "text",
+        "fieldName" : "cross_street_1",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 57872225,
+        "width" : 268,
+        "format" : { }
+      }, {
+        "id" : 370535326,
+        "name" : "Cross Street 2",
+        "dataTypeName" : "text",
+        "fieldName" : "cross_street_2",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 57872226,
+        "width" : 268,
+        "format" : { }
+      }, {
+        "id" : 370535327,
+        "name" : "Corner_location",
+        "dataTypeName" : "text",
+        "description" : "The direction the Kiosk is facing.\n",
+        "fieldName" : "corner_location",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 66294577,
+        "width" : 100,
+        "format" : { }
+      }, {
+        "id" : 370535328,
+        "name" : "Borough",
+        "dataTypeName" : "text",
+        "fieldName" : "borough",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 57872227,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 370535329,
+        "name" : "Zip Code",
+        "dataTypeName" : "text",
+        "fieldName" : "zip_code",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 57872228,
+        "width" : 196,
+        "format" : { }
+      }, {
+        "id" : 370535330,
+        "name" : "Community Board",
+        "dataTypeName" : "number",
+        "fieldName" : "community_board",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 57872229,
+        "width" : 280,
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 370535331,
+        "name" : "Council District",
+        "dataTypeName" : "number",
+        "fieldName" : "council_district",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 57872230,
+        "width" : 292,
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 370535332,
+        "name" : "Site in BID",
+        "dataTypeName" : "text",
+        "fieldName" : "site_in_bid",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 57872231,
+        "width" : 232,
+        "format" : { }
+      }, {
+        "id" : 370535333,
+        "name" : "BID",
+        "dataTypeName" : "text",
+        "fieldName" : "bid",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 57872232,
+        "width" : 136,
+        "format" : { }
+      }, {
+        "id" : 370535334,
+        "name" : "Zoning",
+        "dataTypeName" : "text",
+        "fieldName" : "zoning",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 57872233,
+        "width" : 172,
+        "format" : { }
+      }, {
+        "id" : 370535335,
+        "name" : "Neighborhood Tabulation Area (NTA)",
+        "dataTypeName" : "text",
+        "fieldName" : "neighborhood_tabulation_area_nta",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 57872234,
+        "width" : 508,
+        "format" : { }
+      }, {
+        "id" : 370535336,
+        "name" : "Census Tract (CT)",
+        "dataTypeName" : "number",
+        "fieldName" : "census_tract_ct",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 57872235,
+        "width" : 304,
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 370535337,
+        "name" : "Building Identification Number (BIN)",
+        "dataTypeName" : "number",
+        "fieldName" : "building_identification_number_bin",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 57872236,
+        "width" : 532,
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 370535338,
+        "name" : "Borough-Block-Lot (BBL)",
+        "dataTypeName" : "number",
+        "fieldName" : "borough_block_lot_bbl",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 57872237,
+        "width" : 376,
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 370535339,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 57872238,
+        "width" : 196,
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "6",
+          "align" : "right"
+        }
+      }, {
+        "id" : 370535340,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 57872239,
+        "width" : 208,
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "6",
+          "align" : "right"
+        }
+      }, {
+        "id" : 370535341,
+        "name" : "DoITT NTP Issued (A)",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "doitt_ntp_issued_a",
+        "position" : 20,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 57872240,
+        "width" : 340,
+        "format" : {
+          "view" : "default_date_time"
+        }
+      }, {
+        "id" : 370535342,
+        "name" : "DoITT NTP Expiration Date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "doitt_ntp_expiration_date",
+        "position" : 21,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 57872241,
+        "width" : 400,
+        "format" : {
+          "view" : "default_date_time"
+        }
+      }, {
+        "id" : 370535343,
+        "name" : "In Progress/Suspended",
+        "dataTypeName" : "text",
+        "fieldName" : "in_progress_suspended",
+        "position" : 22,
+        "renderTypeName" : "text",
+        "tableColumnId" : 57872242,
+        "width" : 352,
+        "format" : { }
+      }, {
+        "id" : 370535344,
+        "name" : "Project Status",
+        "dataTypeName" : "text",
+        "fieldName" : "project_status",
+        "position" : 23,
+        "renderTypeName" : "text",
+        "tableColumnId" : 57872243,
+        "width" : 268,
+        "format" : { }
+      }, {
+        "id" : 370535345,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 24,
+        "renderTypeName" : "location",
+        "tableColumnId" : 57872244,
+        "width" : 220,
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "filename" : "Data_Dictionary_Approved_LinkNYC_Kiosk_Locations.xlsx",
+          "assetId" : "7381da0c-aab4-4bd6-8c0b-3674f32fc87d",
+          "name" : "Data_Dictionary_Approved_LinkNYC_Kiosk_Locations.xlsx"
+        } ],
+        "custom_fields" : {
+          "Update" : {
+            "Automation" : "No",
+            "Date Made Public" : "12/15/2017",
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName" : "NYC OpenData",
+        "type" : "interactive"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName" : "NYC OpenData",
+        "type" : "interactive"
+      },
+      "tags" : [ "link nyc locations", "wifi", "wi-fi", "hotspot", "internet", "kiosk", "advertising", "pay phone", "nyc public pay telephones", "ppt payphones" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "BA91CCB9-6D2B-4BF9-8530-C9646F6BE7CE", 1, 1533846691, "994730", 1533846691, "994730", null, "LINK-005408", "si-02-GF5012", "8 NEW DORP LANE", "RICHMOND ROAD", "2 STREET", "SEC", "Staten Island", "10306", "502", "50", "No", null, "C2-1", "New Dorp-Midland Beach", "5013400", "5057251", "5041910031", "40.57569839", "-74.11969156", "2018-04-11T00:00:00", "2018-10-11T00:00:00", "Temporarily Suspended", "Ready for CX", [ null, "40.57569839", "-74.11969156", null, false ] ]
+, [ 2, "0413FC69-F6AB-4E95-BF6A-DF4FD84C7912", 2, 1533846691, "994730", 1533846691, "994730", null, "LINK-001749", "si-02-125465", "2212 HYLAN BOULEVARD", "LINCOLN AVENUE", "ZWICKY AVENUE", "SEC", "Staten Island", "10306", "502", "50", "No", null, "C2-1", "New Dorp-Midland Beach", "5011202", "5136036", "5036920006", "40.576541", "-74.103479", "2018-03-28T00:00:00", "2018-09-28T00:00:00", "Installed", "Link Active!", [ null, "40.576541", "-74.103479", null, false ] ]
+, [ 3, "48AE8CD3-3330-4D41-9EE5-97810DC1B624", 3, 1533846691, "994730", 1533846691, "994730", null, "LINK-005418", "si-02-146099", "2154 HYLAN BOULEVARD", "ZWICKY AVENUE", "MIDLAND AVENUE", "SE", "Staten Island", "10306", "502", "50", "No", null, "C2-1", "New Dorp-Midland Beach", "5011202", "5053558", "5036910011", "40.57739083", "-74.10267054", "2018-04-11T00:00:00", "2018-10-11T00:00:00", "Installed", "Link Active!", [ null, "40.57739083", "-74.10267054", null, false ] ]
+, [ 4, "0A311D17-E1FA-4623-AB30-1155131DA1C6", 4, 1533846691, "994730", 1533846691, "994730", null, "LINK-018411", "si-02-146098", "1660 RICHMOND ROAD", "BUEL AVENUE", "LIBERTY AVENUE", "NE", "Staten Island", "10304", "502", "50", "No", null, "C1-1", "Old Town-Dongan Hills-South Beach", "5011401", "5050551", "5035300001", "40.58948831", "-74.10127071", "2018-04-11T00:00:00", "2018-10-11T00:00:00", "Installed", "Link Active!", [ null, "40.58948831", "-74.10127071", null, false ] ]
+, [ 5, "5E717B8B-4C8E-4CA7-AAED-BD8600CECBB0", 5, 1533846691, "994730", 1533846691, "994730", null, "LINK-018415", "si-02-146100", "1617 RICHMOND ROAD", "LIBERTY AVENUE", "SEAVIEW AVENUE", "MIDBLOCK", "Staten Island", "10304", "502", "50", "No", null, "C1-1", "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill", "5018100", "5022895", "5008830008", "40.59045311240619", "-74.10092194682801", "2018-06-26T00:00:00", "2018-12-26T00:00:00", "Installed", "Link Active!", [ null, "40.59045311240619", "-74.10092194682801", null, false ] ]
+, [ 6, "A3DA1953-91AA-42FB-B7F5-2111765DD213", 6, 1533846691, "994730", 1533846691, "994730", null, "LINK-001756", "si-02-125479", "1351 HYLAN BOULEVARD", "OLD TOWN ROAD", "DUMONT AVENUE", "SWC", "Staten Island", "10305", "502", "50", "No", null, "C2-1", "Old Town-Dongan Hills-South Beach", "5009601", "5048984", "5033230001", "40.59545604078264", "-74.08620985400199", "2018-04-02T00:00:00", "2018-10-02T00:00:00", "Installed", "Link Active!", [ null, "40.59545604078264", "-74.08620985400199", null, false ] ]
+, [ 7, "5B3B4D1A-D983-4BBD-8F47-0C55F0BF39FB", 7, 1533846691, "994730", 1533846691, "994730", null, "LINK-011802", "bk-07-125840", "4201 4 AVENUE", "42 STREET", "43 STREET", "NE", "Brooklyn", "11232", "307", "38", "No", null, "C2-4", "Sunset Park West", "3008200", "3010833", "3007240001", "40.65039017", "-74.00828534", "2018-03-26T00:00:00", "2018-09-26T00:00:00", "Installed", "Link Active!", [ null, "40.65039017", "-74.00828534", null, false ] ]
+, [ 8, "34E44285-786F-45BB-88B7-0A79BF62E0D9", 8, 1533846691, "994730", 1533846691, "994730", null, "LINK-011705", "bk-16-127201", "592 ROCKAWAY AVENUE", "BLAKE AVENUE", "DUMONT AVENUE", "SW", "Brooklyn", "11212", "316", "41", "No", null, "C2-3", "Brownsville", "3092400", "3081790", "3035600026", "40.6655055", "-73.90976626", "2018-07-18T00:00:00", "2019-01-18T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.6655055", "-73.90976626", null, false ] ]
+, [ 9, "C45A9843-BCF5-4F00-8DD8-C992AEFEA86A", 9, 1533846691, "994730", 1533846691, "994730", null, "LINK-013254", "bk-16-113558", "263 BLAKE AVENUE", "ROCKAWAY AVENUE", "CHESTER STREET", "NW", "Brooklyn", "11212", "316", "41", "No", null, "C2-3", "Brownsville", "3092400", "3326651", "3035430043", "40.6656628", "-73.90987491", "2018-07-06T00:00:00", "2019-01-06T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.6656628", "-73.90987491", null, false ] ]
+, [ 10, "4DD2465F-BFAF-4B7F-9593-5C61BA574171", 10, 1533846691, "994730", 1533846691, "994730", null, "LINK-001096", "bk-16-137925", "271 SUTTER AVENUE", "ROCKAWAY AVENUE", "CHESTER STREET", "NWC", "Brooklyn", "11212", "316", "41", "No", null, "C4-3", "Brownsville", "3092400", "3081061", "3035210075", "40.66718957", "-73.91031359", "2018-07-19T00:00:00", "2019-01-19T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.66718957", "-73.91031359", null, false ] ]
+, [ 11, "D6977922-68F0-40C4-BE85-A1DD4C19B047", 11, 1533846691, "994730", 1533846691, "994730", null, "LINK-013492", "bk-16-127126", "1572 PITKIN AVENUE", "HERZL STREET", "STRAUSS STREET", "SW", "Brooklyn", "11212", "316", "41", "Yes", "Pitkin Avenue", "C4-3", "Brownsville", "3090200", "3252123", "3035160038", "40.66890283", "-73.91560453", "2018-07-18T00:00:00", "2019-01-18T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.66890283", "-73.91560453", null, false ] ]
+, [ 12, "4DEFEA6C-2EC1-475B-9F22-49DDD6EB7B5E", 12, 1533846691, "994730", 1533846691, "994730", null, "LINK-010546", "bk-16-141028", "1594 PITKIN AVENUE", "AMBOY STREET", "HERZL STREET", "SW", "Brooklyn", "11212", "316", "41", "Yes", "Pitkin Avenue", "C4-3", "Brownsville", "3090200", "3080987", "3035170037", "40.66904606", "-73.91464565", "2018-07-18T00:00:00", "2019-01-18T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.66904606", "-73.91464565", null, false ] ]
+, [ 13, "BF7A43C9-D7DE-410A-8DB8-EB93DED0133E", 13, 1533846691, "994730", 1533846691, "994730", null, "LINK-010457", "bk-16-109356", "1601 PITKIN AVENUE", "AMBOY STREET", "THOMAS S. BOYLAND STREET", "NE", "Brooklyn", "11212", "316", "41", "Yes", "Pitkin Avenue", "C4-3", "Brownsville", "3090200", "3080733", "3034960046", "40.66920526", "-73.91440606", "2018-07-18T00:00:00", "2019-01-18T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.66920526", "-73.91440606", null, false ] ]
+, [ 14, "9ACAEB1F-0FCE-41C2-8200-FD8E90175211", 14, 1533846691, "994730", 1533846691, "994730", null, "LINK-011631", "bk-16-127120", "1696 PITKIN AVENUE", "ROCKAWAY AVENUE", "THATFORD AVENUE", "SE", "Brooklyn", "11212", "316", "41", "Yes", "Pitkin Avenue", "C4-3", "Brownsville", "3090600", "3081066", "3035220014", "40.66958553", "-73.91064286", "2018-07-06T00:00:00", "2019-01-06T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.66958553", "-73.91064286", null, false ] ]
+, [ 15, "C4F2591A-D3E9-4CE0-90FD-0E5021916FFC", 15, 1533846691, "994730", 1533846691, "994730", null, "LINK-012083", "bk-16-127123", "411 ROCKAWAY AVENUE", "PITKIN AVENUE", "GLENMORE AVENUE", "NE", "Brooklyn", "11212", "316", "41", "Yes", "Pitkin Avenue", "C4-3", "Brownsville", "3090600", "3000000", "3034890235", "40.66980658", "-73.91070036", "2018-07-06T00:00:00", "2019-01-06T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.66980658", "-73.91070036", null, false ] ]
+, [ 16, "50A39056-BF0B-405A-9925-C0BFBA2ABCCA", 16, 1533846691, "994730", 1533846691, "994730", null, "LINK-011959", "bk-16-127124", "1860 PITKIN AVENUE", "SACKMAN STREET", "POWELL STREET", "MIDBLOCK", "Brooklyn", "11212", "316", "41", "No", null, "C2-3", "Brownsville", "3090800", "3327014", "3037270001", "40.67048323659639", "-73.90498603497764", "2018-07-06T00:00:00", "2019-01-06T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.67048323659639", "-73.90498603497764", null, false ] ]
+, [ 17, "2C6451CE-A5B3-4898-AB6D-DCD694479371", 17, 1533846691, "994730", 1533846691, "994730", null, "LINK-012992", "bk-16-127237", "391 SARATOGA AVENUE", "PROSPECT PLACE", "PARK PLACE", "SE", "Brooklyn", "11233", "316", "41", "No", null, "C1-3", "Ocean Hill", "3036300", "3039311", "3014640010", "40.672384405627035", "-73.91681278446009", "2018-07-06T00:00:00", "2019-01-06T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.672384405627035", "-73.91681278446009", null, false ] ]
+, [ 18, "684312E2-EC37-4F5F-972B-D170F8976C1F", 18, 1533846691, "994730", 1533846691, "994730", null, "LINK-010461", "bk-05-109447", "2693 ATLANTIC AVENUE", "VERMONT STREET", "WYONA STREET", "NE", "Brooklyn", "11207", "305", "37", "No", null, "C4-4D", "East New York", "3119800", "3083349", "3036720051", "40.67606023", "-73.89477864", "2018-06-20T00:00:00", "2018-12-20T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.67606023", "-73.89477864", null, false ] ]
+, [ 19, "279FBA4F-07BB-4F99-B079-F930220E03CA", 19, 1533846691, "994730", 1533846691, "994730", null, "LINK-012146", "bk-05-141940", "2837 ATLANTIC AVENUE", "SCHENCK AVENUE", "HENDRIX STREET", "NWC", "Brooklyn", "11207", "305", "37", "No", null, "C2-4", "East New York", "3119800", "3087805", "3039480035", "40.67686992", "-73.88966797", "2018-06-20T00:00:00", "2018-12-20T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.67686992", "-73.88966797", null, false ] ]
+, [ 20, "82624CE4-62C3-48EC-9A6E-2897DD51FF22", 20, 1533846691, "994730", 1533846691, "994730", null, "LINK-010570", "bk-05-143984", "3101 ATLANTIC AVENUE", "HIGHLAND AVENUE", "SHEPHERD AVENUE", "NW", "Brooklyn", "11208", "305", "37", "No", null, "C2-4", "East New York", "3116800", "3256546", "3039580049", "40.67919702", "-73.88080796", "2018-06-20T00:00:00", "2018-12-20T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.67919702", "-73.88080796", null, false ] ]
+, [ 21, "320B74E2-FB02-4E7E-9262-BC75D4A957FE", 21, 1533846691, "994730", 1533846691, "994730", null, "LINK-021687", "bk-08-145935", "2 UNDERHILL AVENUE", "PACIFIC STREET", "BEND", "NE", "Brooklyn", "11238", "308", "35", "No", null, "M1-1", "Prospect Heights", "3020300", "3027474", "3011220032", "40.68088788", "-73.96466835", "2018-03-01T00:00:00", "2018-09-01T00:00:00", "Installed", "Link Active!", [ null, "40.68088788", "-73.96466835", null, false ] ]
+, [ 22, "D852E5D0-D963-4393-888C-A6709166C780", 22, 1533846691, "994730", 1533846691, "994730", null, "LINK-001029", "bk-02-135022", "415 BRIDGE STREET", "FULTON STREET", "WILLOUGHBY STREET", "NE", "Brooklyn", "11201", "302", "33", "Yes", "Fulton Mall", "C6-4.5", "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill", "3001500", "3413889", "3001457501", "40.69084009", "-73.98527975", "2018-03-28T00:00:00", "2018-09-28T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.69084009", "-73.98527975", null, false ] ]
+, [ 23, "0B53ED03-BBF2-4B0F-AF9C-7F2E9C150897", 23, 1533846691, "994730", 1533846691, "994730", null, "LINK-012150", "bk-04-142063", "457 KNICKERBOCKER AVENUE", "GREENE AVENUE", "MYRTLE AVENUE", "NE", "Brooklyn", "11237", "304", "37", "No", null, "C4-3", "Bushwick North", "3043100", "3075418", "3033000008", "40.69893944", "-73.91845847", "2018-07-30T00:00:00", "2019-01-30T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.69893944", "-73.91845847", null, false ] ]
+, [ 24, "0E45C26E-652C-45D4-8CB9-524BCD638A95", 24, 1533846691, "994730", 1533846691, "994730", null, "LINK-014637", "bk-04-141069", "435 KNICKERBOCKER AVENUE", "HARMAN STREET", "GREENE AVENUE", "NE", "Brooklyn", "11237", "304", "37", "No", null, "C4-3", "Bushwick North", "3043100", "3075095", "3032890005", "40.69935028", "-73.91918018", "2018-07-30T00:00:00", "2019-01-30T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.69935028", "-73.91918018", null, false ] ]
+, [ 25, "4BE122F8-E69A-4B3A-BCDC-F7EC9C4287D9", 25, 1533846691, "994730", 1533846691, "994730", null, "LINK-011517", "qu-05-126942", "54-54 MYRTLE AVENUE", "ST. NICHOLAS AVENUE", "WOODBINE STREET", "NW", "Queens", "11385", "405", "34", "Yes", "Myrtle Avenue Queens", "C4-3", "Ridgewood", "4055300", "4312143", "4035440027", "40.69979431", "-73.90859344", "2018-02-22T00:00:00", "2018-08-22T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.69979431", "-73.90859344", null, false ] ]
+, [ 26, "5BACD24F-87D2-4F7A-9C80-98D50BBE3A7D", 26, 1533846691, "994730", 1533846691, "994730", null, "LINK-011278", "qu-05-126941", "55-48 MYRTLE AVENUE", "PUTNAM AVENUE", "CYPRESS AVENUE", "MIDBLOCK", "Queens", "11385", "405", "34", "Yes", "Myrtle Avenue Queens", "C4-3A", "Ridgewood", "4055300", "4085458", "4035460055", "40.70000713", "-73.9067844", "2018-02-22T00:00:00", "2018-08-22T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.70000713", "-73.9067844", null, false ] ]
+, [ 27, "3DA47AAC-1C60-4FAC-8BA3-CE1C8B6F0F5F", 27, 1533846691, "994730", 1533846691, "994730", null, "LINK-013263", "qu-05-136986", "17-17 HANCOCK STREET", "HANCOCK STREET", "CORNELIA STREET", "NE", "Queens", "11385", "405", "34", "Yes", "Myrtle Avenue Queens", "C4-3A", "Ridgewood", "4055300", "4085882", "4035600045", "40.70028801", "-73.90388098", "2018-02-22T00:00:00", "2018-08-22T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.70028801", "-73.90388098", null, false ] ]
+, [ 28, "862B27F1-CD4E-4F94-A5F7-A7F930591AA4", 28, 1533846691, "994730", 1533846691, "994730", null, "LINK-013059", "bk-04-126800", "380 KNICKERBOCKER AVENUE", "STANHOPE STREET", "STOCKHOLM STREET", "SW", "Brooklyn", "11221", "304", "37", "No", null, "C4-3", "Bushwick North", "3043100", "3074152", "3032570033", "40.70029980298882", "-73.92108501074858", "2018-07-30T00:00:00", "2019-01-30T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.70029980298882", "-73.92108501074858", null, false ] ]
+, [ 29, "8058A944-B10A-45DA-9563-656DC9027EDE", 29, 1533846691, "994730", 1533846691, "994730", null, "LINK-014472", "qu-05-126938", "58-25 MYRTLE AVENUE", "FOREST AVENUE", "ONDERDONK AVENUE", "NW", "Queens", "11385", "405", "34", "Yes", "Myrtle Avenue Queens", "C4-3A", "Ridgewood", "4055100", "4437728", "4034760013", "40.70055316", "-73.90043504", "2018-03-28T00:00:00", "2018-09-28T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.70055316", "-73.90043504", null, false ] ]
+, [ 30, "919F4DD1-C5C7-4272-8C4E-DDAE943E7C26", 30, 1533846691, "994730", 1533846691, "994730", null, "LINK-014475", "qu-05-126930", "59-41 MYRTLE AVENUE", "60 STREET", "STEPHEN STREET", "NW", "Queens", "11385", "405", "30", "Yes", "Myrtle Avenue Queens", "C1-4", "Ridgewood", "4058300", "4084150", "4035090061", "40.70057428", "-73.8985072", "2018-02-22T00:00:00", "2018-08-22T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.70057428", "-73.8985072", null, false ] ]
+, [ 31, "D3687A0C-3CB1-496D-B09B-BE62B5DCE59D", 31, 1533846691, "994730", 1533846691, "994730", null, "LINK-014617", "qu-05-126614", "61-01 MYRTLE AVENUE", "MYRTLE AVENUE", "71 AVENUE", "MIDBLOCK", "Queens", "11385", "405", "30", "No", null, "C2-4", "Ridgewood", "4058100", "4088353", "4036370052", "40.70094656", "-73.8944877", "2018-02-23T00:00:00", "2018-08-23T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.70094656", "-73.8944877", null, false ] ]
+, [ 32, "54B80C87-EAE4-4A14-818B-A97D7F322BF6", 32, 1533846691, "994730", 1533846691, "994730", null, "LINK-013640", "qu-05-126932", "65-54 MYRTLE AVENUE", "65 PLACE", "66 STREET", "NW", "Queens", "11385", "405", "30", "No", null, "C1-3", "Glendale", "4062900", "4090141", "4036980028", "40.70123303", "-73.88872244", "2018-02-22T00:00:00", "2018-08-22T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.70123303", "-73.88872244", null, false ] ]
+, [ 33, "6037ED87-E11B-4A98-A3B4-E7700C6EA8F0", 33, 1533846691, "994730", 1533846691, "994730", null, "LINK-010568", "qu-05-144575", "66-27 MYRTLE AVENUE", "66 PLACE", "67 STREET", "MIDBLOCK", "Queens", "11385", "405", "30", "No", null, "C2-3", "Glendale", "4062700", "4089384", "4036790041", "40.70146886", "-73.88726886", "2018-02-22T00:00:00", "2018-08-22T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.70146886", "-73.88726886", null, false ] ]
+, [ 34, "BA26AA10-F14C-458F-994A-59E5E62FD997", 34, 1533846691, "994730", 1533846691, "994730", null, "LINK-010573", "qu-05-140194", "67-29 MYRTLE AVENUE", "67 PLACE", "67 PLACE", "NE", "Queens", "11385", "405", "30", "No", null, "C1-3", "Glendale", "4062700", "4089489", "4036810043", "40.70162336", "-73.88542044", "2018-02-22T00:00:00", "2018-08-22T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.70162336", "-73.88542044", null, false ] ]
+, [ 35, "D63E8FA5-1211-4BED-BD62-63668364E8E9", 35, 1533846691, "994730", 1533846691, "994730", null, "LINK-012024", "qu-05-126933", "68-20 MYRTLE AVENUE", "68 STREET", "68 PLACE", "NW", "Queens", "11385", "405", "30", "No", null, "C1-3", "Glendale", "4062900", "4090330", "4037030007", "40.70162961", "-73.88399715", "2018-02-22T00:00:00", "2018-08-22T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.70162961", "-73.88399715", null, false ] ]
+, [ 36, "32DE491C-8486-4557-A434-05F4B325B68D", 36, 1533846691, "994730", 1533846691, "994730", null, "LINK-021134", "bk-01-GF33198", "5 LEONARD STREET", "BROADWAY", "MOORE STREET", "NE", "Brooklyn", "11206", "301", "34", "No", null, "C4-3", "East Williamsburg", "3049100", "3071500", "3031040001", "40.70307684", "-73.94580166", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.70307684", "-73.94580166", null, false ] ]
+, [ 37, "B1E595F3-FBD6-4838-A8CF-7C3CF9DA0634", 37, 1533846691, "994730", 1533846691, "994730", null, "LINK-012505", "mn-01-122991", "1 PEARL STREET", "WHITEHALL STREET", "STATE STREET", "NW", "Manhattan", "10004", "101", "1", "Yes", "1000021", "C5-5", "Battery Park City-Lower Manhattan", "1000900", "1000021", "1000090029", "40.70314187", "-74.01328627", "2018-02-22T00:00:00", "2018-08-22T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.70314187", "-74.01328627", null, false ] ]
+, [ 38, "2E791A19-E204-41DB-B9E6-88900767B051", 38, 1533846691, "994730", 1533846691, "994730", null, "LINK-021106", "bk-01-GF33170", "574 BROADWAY", "LORIMER STREET", "WALTON STREET", "MIDBLOCK", "Brooklyn", "11206", "301", "33", "No", null, "R6", "South Williamsburg", "3050900", "3061334", "3022430001", "40.70407101", "-73.94804509", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.70407101", "-73.94804509", null, false ] ]
+, [ 39, "2E49EA65-6FDC-449E-AE20-F9BD8733BABA", 39, 1533846691, "994730", 1533846691, "994730", null, "LINK-020776", "bk-01-145855", "103 SEIGEL STREET", "MANHATTAN AVENUE", "GRAHAM AVENUE", "NW", "Brooklyn", "11206", "301", "34", "Yes", "Graham Avenue", "C1-3", "East Williamsburg", "3049100", "3071403", "3030880021", "40.704496", "-73.942989", "2018-03-05T00:00:00", "2018-09-05T00:00:00", "Installed", "Link Active!", [ null, "40.704496", "-73.942989", null, false ] ]
+, [ 40, "53935AE2-BB77-439E-85A1-0F1262783F42", 40, 1533846691, "994730", 1533846691, "994730", null, "LINK-021165", "bk-01-GF33229", "545 BROADWAY", "MIDDLETON STREET", "BOERUM STREET", "MIDBLOCK", "Brooklyn", "11206", "301", "34", "No", null, "C4-4", "East Williamsburg", "3049100", "3071328", "3030760040", "40.70463611", "-73.94865373", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.70463611", "-73.94865373", null, false ] ]
+, [ 41, "A30F78DC-736E-403B-B7B3-8793974E8700", 41, 1533846691, "994730", 1533846691, "994730", null, "LINK-021164", "bk-01-GF33228", "488 BROADWAY", "RUTLEDGE STREET", "HEYWARD STREET", "SE", "Brooklyn", "11211", "301", "33", "No", null, "C8-2", "South Williamsburg", "3052900", "3061070", "3022280025", "40.70580957", "-73.95101762", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.70580957", "-73.95101762", null, false ] ]
+, [ 42, "BFCDDF8A-E031-45D9-94EE-5D042150864C", 42, 1533846691, "994730", 1533846691, "994730", null, "LINK-022448", "bk-01-GF22179", "413 BROADWAY", "HOOPER STREET", "HEWES STREET", "NE", "Brooklyn", "11211", "301", "34", "No", null, "C2-3", "North Williamsburg", "3052700", "3063624", "3024640030", "40.70700", "-73.95355", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.70700", "-73.95355", null, false ] ]
+, [ 43, "7E3B4812-7D8F-40EB-A2FC-E495526E9B1C", 43, 1533846691, "994730", 1533846691, "994730", null, "LINK-021241", "bk-01-146092", "361 BROADWAY", "KEAP STREET", "HOOPER STREET", "NE", "Brooklyn", "11211", "301", "34", "No", null, "C1-3", "North Williamsburg", "3052700", "3331238", "3024630040", "40.707581", "-73.95531649", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.707581", "-73.95531649", null, false ] ]
+, [ 44, "AECD9519-041B-4193-A1C8-B8E7DAF39948", 44, 1533846691, "994730", 1533846691, "994730", null, "LINK-001118", "qu-08-124468", "138-01 QUEENS BOULEVARD", "84 DRIVE", "86 AVENUE", "SEC", "Queens", "11435", "408", "24", "No", null, "C1-4", "Briarwood-Jamaica Hills", "4021400", "4206515", "4096490044", "40.708859", "-73.818405", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "Ready to Submit to DOT", [ null, "40.708859", "-73.818405", null, false ] ]
+, [ 45, "256F7259-87FA-43F6-BA62-BE79DF775FB9", 45, 1533846691, "994730", 1533846691, "994730", null, "LINK-021157", "bk-01-146091", "178 BROADWAY", "DRIGGS AVENUE", "BEDFORD AVENUE", "SW", "Brooklyn", "11211", "301", "34", "No", null, "C4-3", "North Williamsburg", "3054900", "3335296", "3021320021", "40.70990", "-73.96244", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.70990", "-73.96244", null, false ] ]
+, [ 46, "A902C10A-6526-45CF-AF76-EF2E9FE98DD3", 46, 1533846691, "994730", 1533846691, "994730", null, "LINK-021158", "bk-01-GF33222", "84 BROADWAY", "WYTHE AVENUE", "BERRY STREET", "SW", "Brooklyn", "11249", "301", "33", "No", null, "C4-3", "North Williamsburg", "3054900", "3335293", "3021300017", "40.71042454", "-73.96573848", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "Suspended Permanently", "CX In Progress", [ null, "40.71042454", "-73.96573848", null, false ] ]
+, [ 47, "8C40AD73-532C-41E9-A233-1AA1F8E6818D", 47, 1533846691, "994730", 1533846691, "994730", null, "LINK-013951", "mn-01-123070", "160 FULTON STREET", "BROADWAY", "CHURCH STREET", "SW", "Manhattan", "10007", "101", "1", "Yes", "Alliance for Downtown NY", "C5-5", "Battery Park City-Lower Manhattan", "1001300", "1001227", "1000800001", "40.71092181", "-74.00925136", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Suspended Permanently", "Ready for CX", [ null, "40.71092181", "-74.00925136", null, false ] ]
+, [ 48, "1CED57D0-E9D7-4A31-85B1-225E6B4698F6", 48, 1533846691, "994730", 1533846691, "994730", null, "LINK-021289", "bk-01-146093", "394 KENT AVENUE", "BROADWAY", "SOUTH 6 STREET", "NW", "Brooklyn", "11249", "301", "33", "No", null, "M3-1", "North Williamsburg", "3054900", "3063635", "3024670001", "40.71098811", "-73.96853381", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.71098811", "-73.96853381", null, false ] ]
+, [ 49, "52CC9D81-90AD-4F3F-BF06-D41AC396B2F6", 49, 1533846691, "994730", 1533846691, "994730", null, "LINK-014078", "mn-01-134978", "217 BROADWAY", "VESEY STREET", "BARCLAY STREET", "NW", "Manhattan", "10007", "101", "1", "Yes", "Alliance for Downtown NY", "C5-3", "SoHo-TriBeCa-Civic Center-Little Italy", "1002100", "1001232", "1000880001", "40.71156352", "-74.00861012", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Suspended Permanently", "Ready for CX", [ null, "40.71156352", "-74.00861012", null, false ] ]
+, [ 50, "C9FB9F2E-C311-4ECF-B136-F3EBBFBFF51B", 50, 1533846691, "994730", 1533846691, "994730", null, "LINK-012338", "mn-01-134220", "2 VESEY STREET", "BROADWAY", "CHURCH STREET", "NW", "Manhattan", "10007", "101", "1", "Yes", "Alliance for Downtown NY", "C5-3", "SoHo-TriBeCa-Civic Center-Little Italy", "1002100", "1001232", "1000880001", "40.71159093", "-74.0089421", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Suspended Permanently", "CX In Progress", [ null, "40.71159093", "-74.0089421", null, false ] ]
+, [ 51, "54CDD212-BFBD-461F-B083-933748AD064F", 51, 1533846691, "994730", 1533846691, "994730", null, "LINK-003268", "mn-01-123041", "70 CHAMBERS STREET", "BROADWAY", "CHURCH STREET", "SWC", "Manhattan", "10007", "101", "1", "No", null, "C5-3", "SoHo-TriBeCa-Civic Center-Little Italy", "1002100", "1079153", "1001357504", "40.71420865", "-74.0065117", "2018-04-05T00:00:00", "2018-10-05T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.71420865", "-74.0065117", null, false ] ]
+, [ 52, "BD451155-011E-447D-BF9F-3ED4CC0A8E7C", 52, 1533846691, "994730", 1533846691, "994730", null, "LINK-000574", "mn-01-122913", "165 CHURCH STREET", "CHAMBERS STREET", "READE STREET", "NE", "Manhattan", "10007", "101", "1", "No", null, "C6-3A", "SoHo-TriBeCa-Civic Center-Little Italy", "1002100", "1001631", "1001490014", "40.71498093556114", "-74.0077714566865", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "ConEd in Progress", [ null, "40.71498093556114", "-74.0077714566865", null, false ] ]
+, [ 53, "D766C5E9-6A03-4B73-BD85-E7D575435614", 53, 1533846691, "994730", 1533846691, "994730", null, "LINK-010606", "mn-01-109612", "67 READE STREET", "CHURCH STREET", "BROADWAY", "MIDBLOCK", "Manhattan", "10007", "101", "1", "No", null, "C6-3A", "SoHo-TriBeCa-Civic Center-Little Italy", "1002100", "1001627", "1001490006", "40.71502742", "-74.00677204", "2018-04-03T00:00:00", "2018-10-03T00:00:00", "In Progress", "CX In Progress", [ null, "40.71502742", "-74.00677204", null, false ] ]
+, [ 54, "1147E0B1-0717-42C2-B905-5B7F0B50BF1B", 54, 1533846691, "994730", 1533846691, "994730", null, "LINK-003263", "mn-01-123044", "317 BROADWAY", "THOMAS STREET", "DUANE STREET", "SWC", "Manhattan", "10007", "101", "1", "No", null, "C6-4A", "SoHo-TriBeCa-Civic Center-Little Italy", "1003300", "1001656", "1001510028", "40.715712", "-74.005126", "2018-05-29T00:00:00", "2018-11-29T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.715712", "-74.005126", null, false ] ]
+, [ 55, "75462BDB-44C1-49CB-8716-CB9C065C2661", 55, 1533846691, "994730", 1533846691, "994730", null, "LINK-000570", "mn-01-108151", "183 CHURCH STREET", "DUANE STREET", "READE STREET", "MIDBLOCK", "Manhattan", "10007", "101", "1", "No", null, "C6-2A", "SoHo-TriBeCa-Civic Center-Little Italy", "1003300", "1001642", "1001500015", "40.7157269039075", "-74.0071850611259", "2018-06-04T00:00:00", "2018-12-04T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.7157269039075", "-74.0071850611259", null, false ] ]
+, [ 56, "31074168-C296-492A-8E30-6A2740DC0CBC", 56, 1533846691, "994730", 1533846691, "994730", null, "LINK-013928", "mn-01-122911", "227 CHURCH STREET", "WORTH STREET", "THOMAS STREET", "SE", "Manhattan", "10007", "101", "1", "No", null, "C6-4", "SoHo-TriBeCa-Civic Center-Little Italy", "1003300", "1085517", "1001520013", "40.716939370213865", "-74.00622249398464", "2018-05-02T00:00:00", "2018-11-02T00:00:00", "Installed", "Link Active!", [ null, "40.716939370213865", "-74.00622249398464", null, false ] ]
+, [ 57, "D686DE32-0CBA-44E8-97B2-030977ECDF66", 57, 1533846691, "994730", 1533846691, "994730", null, "LINK-003261", "mn-01-122277", "360 BROADWAY", "FRANKLIN STREET", "LEONARD STREET", "SEC", "Manhattan", "10013", "101", "1", "No", null, "C6-4A", "SoHo-TriBeCa-Civic Center-Little Italy", "1003100", "1001841", "1001710007", "40.7172985", "-74.00355601", "2018-03-26T00:00:00", "2018-09-26T00:00:00", "Temporarily Suspended", "Ready for CX", [ null, "40.7172985", "-74.00355601", null, false ] ]
+, [ 58, "1BE2C097-33B1-451B-B337-18D81D95B1A1", 58, 1533846691, "994730", 1533846691, "994730", null, "LINK-012332", "mn-03-134162", "68 ORCHARD STREET", "GRAND STREET", "BROOME STREET", "NE", "Manhattan", "10002", "103", "1", "Yes", "Lower East Side", "C4-4A", "Chinatown", "1001800", "1081943", "1004080001", "40.717319617475525", "-73.99060035552253", "2018-03-27T00:00:00", "2018-09-27T00:00:00", "Temporarily Suspended", "Ready to Submit to DOT", [ null, "40.717319617475525", "-73.99060035552253", null, false ] ]
+, [ 59, "DEE430E6-FA97-472E-B06E-1DD8936C8E65", 59, 1533846691, "994730", 1533846691, "994730", null, "LINK-012192", "mn-01-109587", "249 CHURCH STREET", "LEONARD STREET", "FRANKLIN STREET", "SE", "Manhattan", "10013", "101", "1", "No", null, "C6-2A", "SoHo-TriBeCa-Civic Center-Little Italy", "1003300", "1001891", "1001740011", "40.71772575", "-74.00560969", "2018-02-13T00:00:00", "2018-08-13T00:00:00", "Installed", "Link Active!", [ null, "40.71772575", "-74.00560969", null, false ] ]
+, [ 60, "F53612B1-4D1A-4ECD-9CB7-E2D1BA25D6E2", 60, 1533846691, "994730", 1533846691, "994730", null, "LINK-013841", "mn-01-122275", "250 CHURCH STREET", "LEONARD STREET", "FRANKLIN STREET", "NW", "Manhattan", "10013", "101", "1", "No", null, "C6-2A", "SoHo-TriBeCa-Civic Center-Little Italy", "1003300", "1001971", "1001770002", "40.71780497", "-74.00581491", "2018-02-13T00:00:00", "2018-08-13T00:00:00", "Installed", "Link Active!", [ null, "40.71780497", "-74.00581491", null, false ] ]
+, [ 61, "5FC37FCF-11C3-4016-A138-D9175DA0A4D2", 61, 1533846691, "994730", 1533846691, "994730", null, "LINK-008230", "mn-03-108422", "113 BOWERY", "GRAND STREET", "HESTER STREET", "MIDBLK", "Manhattan", "10002", "103", "1", "Yes", "Chinatown", "C6-1G", "Chinatown", "1001600", "1003926", "1003040010", "40.71791958", "-73.99494009", "2018-06-06T00:00:00", "2018-12-06T00:00:00", "Installed", "Link Active!", [ null, "40.71791958", "-73.99494009", null, false ] ]
+, [ 62, "E2635E4E-2A72-4AAE-BE07-0047D058BE67", 62, 1533846691, "994730", 1533846691, "994730", null, "LINK-013977", "mn-03-123368", "100 DELANCEY STREET", "LUDLOW STREET", "ESSEX STREET", "NE", "Manhattan", "10002", "103", "1", "Yes", "Lower East Side", "C6-2A", "Chinatown", "1001800", "1075628", "1004100071", "40.71888294", "-73.98882264", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "Temporarily Suspended", "Ready to Submit to DOT", [ null, "40.71888294", "-73.98882264", null, false ] ]
+, [ 63, "903675B1-C103-49B1-AD7C-0FE2DD4F6C19", 63, 1533846691, "994730", 1533846691, "994730", null, "LINK-010726", "mn-02-122344", "203 GRAND STREET", "MOTT STREET", "MULBERRY STREET", "SWC", "Manhattan", "10013", "102", "1", "Yes", "Chinatown", "C6-2G", "SoHo-TriBeCa-Civic Center-Little Italy", "1004100", "1003091", "1002370017", "40.71903975", "-73.99663087", "2018-04-05T00:00:00", "2018-10-05T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.71903975", "-73.99663087", null, false ] ]
+, [ 64, "9847915A-443E-40DC-9ECB-291CB5CE0884", 64, 1533846691, "994730", 1533846691, "994730", null, "LINK-012469", "mn-03-123365", "66 DELANCEY STREET", "ALLEN STREET", "ELDRIDGE STREET", "NWC", "Manhattan", "10002", "103", "1", "No", null, "C6-2A", "Chinatown", "1001800", "1079711", "1004150041", "40.71943752", "-73.99056978", "2018-04-05T00:00:00", "2018-10-05T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.71943752", "-73.99056978", null, false ] ]
+, [ 65, "69E9BD5F-E4D2-4C48-A794-0546F0D71DA7", 65, 1533846691, "994730", 1533846691, "994730", null, "LINK-010605", "mn-01-109595", "15 6 AVENUE", "WHITE STREET", "WALKER STREET", "MIDBLOCK", "Manhattan", "10013", "101", "1", "No", null, "C6-2A", "SoHo-TriBeCa-Civic Center-Little Italy", "1003300", "1002182", "1001910017", "40.71965919", "-74.00529972", "2018-02-13T00:00:00", "2018-08-13T00:00:00", "Temporarily Suspended", "ConEd in Progress", [ null, "40.71965919", "-74.00529972", null, false ] ]
+, [ 66, "FDB85B47-26EA-478D-BE4F-FFE22AD91EDD", 66, 1533846691, "994730", 1533846691, "994730", null, "LINK-010808", "mn-01-122285", "30 VARICK STREET", "BEACH STREET", "LAIGHT STREET", "SE", "Manhattan", "10013", "101", "1", "No", null, "C6-2A", "SoHo-TriBeCa-Civic Center-Little Italy", "1003300", "1002732", "1002127502", "40.72056775", "-74.0065562", "2018-04-03T00:00:00", "2018-10-03T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.72056775", "-74.0065562", null, false ] ]
+, [ 67, "B8530237-3D2E-4590-86E4-72FEBCD7A6ED", 67, 1533846691, "994730", 1533846691, "994730", null, "LINK-020491", "mn-02-115262", "300 WEST BROADWAY", "CANAL STREET", "GRAND STREET", "MIDBLOCK", "Manhattan", "10013", "102", "1", "No", null, "M1-5A", "SoHo-TriBeCa-Civic Center-Little Italy", "1004700", "1002935", "1002270001", "40.72171363", "-74.0044312", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.72171363", "-74.0044312", null, false ] ]
+, [ 68, "C1A1FAE0-E80A-46D3-BD1B-A8B09AD8ECCF", 68, 1533846691, "994730", 1533846691, "994730", null, "LINK-014264", "mn-02-108612", "311 WEST BROADWAY", "GRAND STREET", "CANAL STREET", "MIDBLOCK", "Manhattan", "10013", "102", "1", "No", null, "M1-5A", "SoHo-TriBeCa-Civic Center-Little Italy", "1004700", "1087487", "1002280111", "40.72193434", "-74.00406861", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.72193434", "-74.00406861", null, false ] ]
+, [ 69, "7D90BF8E-5055-4A11-9BD2-0084C7BD4F9E", 69, 1533846691, "994730", 1533846691, "994730", null, "LINK-012242", "mn-02-133383", "431 CANAL STREET", "VARICK STREET", "HUDSON STREET", "MIDBLOCK", "Manhattan", "10013", "102", "1", "Yes", "Hudson Square", "M1-6", "SoHo-TriBeCa-Civic Center-Little Italy", "1003700", "1002934", "1002260001", "40.72301338", "-74.00677065", "2018-03-26T00:00:00", "2018-09-26T00:00:00", "In Progress", "CX In Progress", [ null, "40.72301338", "-74.00677065", null, false ] ]
+, [ 70, "462D53F6-B7E4-4A1D-B4C2-D1029743EB61", 70, 1533846691, "994730", 1533846691, "994730", null, "LINK-014293", "mn-02-133259", "399 WEST BROADWAY", "SPRING STREET", "BROOME STREET", "SE", "Manhattan", "10012", "102", "1", "No", null, "M1-5A", "SoHo-TriBeCa-Civic Center-Little Italy", "1004700", "1079941", "1004870020", "40.72433792", "-74.00202234", "2018-04-05T00:00:00", "2018-10-05T00:00:00", "In Progress", "Ready to Install", [ null, "40.72433792", "-74.00202234", null, false ] ]
+, [ 71, "32DDDC13-BEF6-49A3-A1DA-8A9A9D61FD9A", 71, 1533846691, "994730", 1533846691, "994730", null, "LINK-014292", "mn-02-133256", "402 WEST BROADWAY", "SPRING STREET", "BROOME STREET", "SW", "Manhattan", "10012", "102", "1", "No", null, "M1-5A", "SoHo-TriBeCa-Civic Center-Little Italy", "1004700", "1007330", "1004880021", "40.72448594", "-74.00207907", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.72448594", "-74.00207907", null, false ] ]
+, [ 72, "5346A997-1ACF-4C60-BF07-2318A1A6A3DF", 72, 1533846691, "994730", 1533846691, "994730", null, "LINK-012423", "mn-02-122250", "409 WEST BROADWAY", "SPRING STREET", "PRINCE STREET", "NE", "Manhattan", "10012", "102", "1", "No", null, "M1-5A", "SoHo-TriBeCa-Civic Center-Little Italy", "1004900", "1007723", "1005010039", "40.72460063", "-74.00180211", "2018-08-02T00:00:00", "2019-02-02T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.72460063", "-74.00180211", null, false ] ]
+, [ 73, "1CB05F67-A644-470B-B206-F84CA8D1F061", 73, 1533846691, "994730", 1533846691, "994730", null, "LINK-014291", "mn-02-133254", "410 WEST BROADWAY", "SPRING STREET", "PRINCE STREET", "NW", "Manhattan", "10012", "102", "1", "No", null, "M1-5A", "SoHo-TriBeCa-Civic Center-Little Italy", "1004900", "1007736", "1005020038", "40.724781756639395", "-74.0018362868048", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.724781756639395", "-74.0018362868048", null, false ] ]
+, [ 74, "EA49CB71-9FFE-42A7-AD67-E9FB4B88A670", 74, 1533846691, "994730", 1533846691, "994730", null, "LINK-014004", "mn-02-123586", "118 VARICK STREET", "DOMINICK STREET", "BROOME STREET", "SE", "Manhattan", "10013", "102", "3", "Yes", "Hudson Square", "M1-6", "SoHo-TriBeCa-Civic Center-Little Italy", "1003700", "1000000", "1004910003", "40.72492489", "-74.00579536", "2018-03-26T00:00:00", "2018-09-26T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.72492489", "-74.00579536", null, false ] ]
+, [ 75, "A6AAD89F-1E25-4097-B056-F90E1200B516", 75, 1533846691, "994730", 1533846691, "994730", null, "LINK-012250", "mn-02-138004", "260 SPRING STREET", "VARICK STREET", "HUDSON STREET", "SW", "Manhattan", "10013", "102", "3", "Yes", "Hudson Square", "M1-6", "SoHo-TriBeCa-Civic Center-Little Italy", "1003700", "1009740", "1005790030", "40.725666", "-74.00627426", "2018-03-26T00:00:00", "2018-09-26T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.725666", "-74.00627426", null, false ] ]
+, [ 76, "5D32F22D-1BA7-489E-A7FC-E204884D57E1", 76, 1533846691, "994730", 1533846691, "994730", null, "LINK-014294", "mn-02-133261", "438 WEST BROADWAY", "PRINCE STREET", "SPRING STREET", "SW", "Manhattan", "10012", "102", "1", "No", null, "M1-5A", "SoHo-TriBeCa-Civic Center-Little Italy", "1004900", "1007733", "1005020023", "40.72573045", "-74.0010364", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.72573045", "-74.0010364", null, false ] ]
+, [ 77, "91CE8617-4464-4115-85EA-06CE7D034533", 77, 1533846691, "994730", 1533846691, "994730", null, "LINK-010733", "mn-02-123589", "180 VARICK STREET", "CHARLTON STREET", "KING STREET", "NE", "Manhattan", "10014", "102", "3", "Yes", "Hudson Square", "M1-6", "SoHo-TriBeCa-Civic Center-Little Italy", "1003700", "1008117", "1005190070", "40.72728365", "-74.00540707", "2018-06-05T00:00:00", "2018-12-05T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.72728365", "-74.00540707", null, false ] ]
+, [ 78, "FF8F53D9-14BC-48B5-A531-82E9F9D95387", 78, 1533846691, "994730", 1533846691, "994730", null, "LINK-010722", "mn-02-123590", "56 KING STREET", "VARICK STREET", "6 AVENUE", "SE", "Manhattan", "10014", "102", "3", "Yes", "Hudson Square", "M1-6", "SoHo-TriBeCa-Civic Center-Little Italy", "1003700", "1008117", "1005190070", "40.72780341", "-74.00523226", "2018-03-26T00:00:00", "2018-09-26T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.72780341", "-74.00523226", null, false ] ]
+, [ 79, "220C2DDF-F486-4BFE-BA7E-8684D738C97F", 79, 1533846691, "994730", 1533846691, "994730", null, "LINK-011377", "mn-02-123678", "50 GROVE STREET", "BLEECKER STREET", "7 AVENUE SOUTH", "SE", "Manhattan", "10014", "102", "3", "No", null, "C1-6", "West Village", "1007300", "1010182", "1005910009", "40.73290856", "-74.00387699", "2018-03-26T00:00:00", "2018-09-26T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.73290856", "-74.00387699", null, false ] ]
+, [ 80, "2DB988A2-7B70-4BA9-B470-806B15E0866F", 80, 1533846691, "994730", 1533846691, "994730", null, "LINK-010844", "mn-02-123585", "623 HUDSON STREET", "JANE STREET", "HORATIO STREET", "NW", "Manhattan", "10014", "102", "3", "No", null, "C1-6", "West Village", "1007900", "1011645", "1006260012", "40.73827778442089", "-74.0056712058614", "2018-06-05T00:00:00", "2018-12-05T00:00:00", "In Progress", "Ready to Install", [ null, "40.73827778442089", "-74.0056712058614", null, false ] ]
+, [ 81, "1EFDFE68-6B24-4C90-95D8-561A9CF308D2", 81, 1533846691, "994730", 1533846691, "994730", null, "LINK-011006", "mn-04-134450", "74 7 AVENUE", "WEST 15 STREET", "WEST 14 STREET", "SW", "Manhattan", "10011", "104", "3", "No", null, "C6-3A", "Hudson Yards-Chelsea-Flatiron-Union Square", "1008100", "1013735", "1007640042", "40.7391558", "-73.99938138", "2018-02-13T00:00:00", "2018-08-13T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.7391558", "-73.99938138", null, false ] ]
+, [ 122, "7405EF03-7506-4EA6-9A0D-F8A45FDE36C6", 122, 1533846691, "994730", 1533846691, "994730", null, "LINK-020944", "qu-03-GF44186", "91-01 NORTHERN BOULEVARD", "91 STREET", "92 STREET", "NE", "Queens", "11369", "403", "25", "No", null, "C8-1", "Jackson Heights", "4035100", "4000000", "4014210040", "40.756566", "-73.876859", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.756566", "-73.876859", null, false ] ]
+, [ 82, "52C5599B-BEF9-4349-9852-02C291A9862F", 82, 1533846691, "994730", 1533846691, "994730", null, "LINK-013713", "mn-06-121447", "459 2 AVENUE", "EAST 26 STREET", "EAST 25 STREET", "SWC", "Manhattan", "10010", "106", "2", "No", null, "C1-8A", "Murray Hill-Kips Bay", "1006600", "1019834", "1009060033", "40.73976238", "-73.979693", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.73976238", "-73.979693", null, false ] ]
+, [ 83, "C903A2BA-D610-432E-89F0-90DC97FF186B", 83, 1533846691, "994730", 1533846691, "994730", null, "LINK-013714", "mn-06-121448", "470 2 AVENUE", "EAST 27 STREET", "EAST 26 STREET", "NE", "Manhattan", "10016", "106", "2", "No", null, "C1-8", "Murray Hill-Kips Bay", "1006600", "1082730", "1009340001", "40.73985154", "-73.97932655", "2018-07-18T00:00:00", "2019-01-18T00:00:00", "In Progress", "CX In Progress", [ null, "40.73985154", "-73.97932655", null, false ] ]
+, [ 84, "CC8DA0CD-14CB-4A34-ABBA-12CCD46765EF", 84, 1533846691, "994730", 1533846691, "994730", null, "LINK-000446", "mn-04-134594", "111 8 AVENUE", "WEST 15 STREET", "WEST 16 STREET", "NWC", "Manhattan", "10011", "104", "3", "Yes", "Meatpacking", "M1-5", "Hudson Yards-Chelsea-Flatiron-Union Square", "1008300", "1013043", "1007390001", "40.74060501", "-74.00205896", "2018-06-25T00:00:00", "2018-12-25T00:00:00", "In Progress", "DOT In Progress", [ null, "40.74060501", "-74.00205896", null, false ] ]
+, [ 85, "8746AA6D-837C-4471-BA7F-97E2AEDC35C0", 85, 1533846691, "994730", 1533846691, "994730", null, "LINK-012575", "mn-06-134611", "481 2 AVENUE", "EAST 27 STREET", "EAST 28 STREET", "NW", "Manhattan", "10016", "106", "2", "No", null, "C1-8A", "Murray Hill-Kips Bay", "1006600", "1019879", "1009080027", "40.74061156282112", "-73.97907884723872", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.74061156282112", "-73.97907884723872", null, false ] ]
+, [ 86, "343AE863-3A57-495A-B317-1DF3E1C4C686", 86, 1533846691, "994730", 1533846691, "994730", null, "LINK-000445", "mn-04-122831", "111 8 AVENUE", "WEST 16 STREET", "WEST 15 STREET", "SWC", "Manhattan", "10011", "104", "3", "Yes", "Meatpacking", "M1-5", "Hudson Yards-Chelsea-Flatiron-Union Square", "1008300", "1013043", "1007390001", "40.74102432", "-74.00175197", "2018-06-25T00:00:00", "2018-12-25T00:00:00", "In Progress", "DOT In Progress", [ null, "40.74102432", "-74.00175197", null, false ] ]
+, [ 87, "5DE1A5FA-C662-4F7C-8C9B-6BE5FD28DDF6", 87, 1533846691, "994730", 1533846691, "994730", null, "LINK-012628", "mn-06-134613", "501 1 AVENUE", "EAST 30 STREET", "EAST 29 STREET", "SW", "Manhattan", "10016", "106", "2", "No", null, "C2-5", "Murray Hill-Kips Bay", "1007000", "1020634", "1009357501", "40.74119792", "-73.97555268", "2018-02-13T00:00:00", "2018-08-13T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.74119792", "-73.97555268", null, false ] ]
+, [ 88, "47C2461B-4231-4F57-AE53-2A1E79A77847", 88, 1533846691, "994730", 1533846691, "994730", null, "LINK-012676", "mn-06-136617", "501 2 AVENUE", "EAST 28 STREET", "EAST 29 STREET", "MIDBLOCK", "Manhattan", "10016", "106", "2", "No", null, "C1-8A", "Murray Hill-Kips Bay", "1006600", "1019898", "1009090028", "40.74122503443334", "-73.97893462269445", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.74122503443334", "-73.97893462269445", null, false ] ]
+, [ 89, "395895FA-48BE-4B3F-937C-DEE373190B86", 89, 1533846691, "994730", 1533846691, "994730", null, "LINK-012695", "mn-05-133657", "341 PARK AVENUE SOUTH", "EAST 25 STREET", "EAST 24 STREET", "SE", "Manhattan", "10010", "105", "2", "Yes", "Flatiron/23rd Street", "C6-4A", "Gramercy", "1006800", "1080811", "1008800089", "40.74132322", "-73.98538547", "2018-02-13T00:00:00", "2018-08-13T00:00:00", "Installed", "Link Active!", [ null, "40.74132322", "-73.98538547", null, false ] ]
+, [ 90, "72F114F7-9D4A-40A1-976C-245EB5794FC5", 90, 1533846691, "994730", 1533846691, "994730", null, "LINK-012728", "mn-04-135246", "76 9 AVENUE", "WEST 15 STREET", "WEST 16 STREET", "SE", "Manhattan", "10011", "104", "3", "Yes", "Meatpacking", "M1-5", "Hudson Yards-Chelsea-Flatiron-Union Square", "1008300", "1013043", "1007390001", "40.74171632", "-74.00465723", "2018-07-11T00:00:00", "2019-01-11T00:00:00", "In Progress", "CX In Progress", [ null, "40.74171632", "-74.00465723", null, false ] ]
+, [ 91, "AEFB61C2-EE9E-481D-A881-1163D994BF6B", 91, 1533846691, "994730", 1533846691, "994730", null, "LINK-012622", "mn-06-134834", "540 2 AVENUE", "EAST 30 STREET", "EAST 29 STREET", "SE", "Manhattan", "10016", "106", "2", "No", null, "C1-8", "Murray Hill-Kips Bay", "1007000", "1020632", "1009350059", "40.74206861960811", "-73.97769449415296", "2018-03-26T00:00:00", "2018-09-26T00:00:00", "Installed", "Link Active!", [ null, "40.74206861960811", "-73.97769449415296", null, false ] ]
+, [ 92, "8DB58ADF-B15A-411B-AA38-D9ED6838D9AC", 92, 1533846691, "994730", 1533846691, "994730", null, "LINK-010812", "mn-05-138316", "51 EAST 26 STREET", "PARK AVENUE SOUTH", "MADISON AVENUE", "NW", "Manhattan", "10010", "105", "2", "Yes", "Flatiron/23rd Street", "C5-3", "Hudson Yards-Chelsea-Flatiron-Union Square", "1005600", "1016880", "1008560024", "40.74232205975481", "-73.98538074015357", "2018-06-21T00:00:00", "2018-12-21T00:00:00", "Installed", "Link Active!", [ null, "40.74232205975481", "-73.98538074015357", null, false ] ]
+, [ 93, "D48ADAF0-9107-4033-A54A-DA9164B1F357", 93, 1533846691, "994730", 1533846691, "994730", null, "LINK-011082", "mn-04-135171", "89 9 AVENUE", "WEST 16 STREET", "WEST 17 STREET", "NW", "Manhattan", "10011", "104", "3", "Yes", "Meatpacking", "C2-5", "Hudson Yards-Chelsea-Flatiron-Union Square", "1008300", "1078408", "1007140031", "40.74241855", "-74.00444413", "2018-04-05T00:00:00", "2018-10-05T00:00:00", "In Progress", "Ready to Install", [ null, "40.74241855", "-74.00444413", null, false ] ]
+, [ 94, "F3F9C578-1122-45DA-893C-50C158CC923B", 94, 1533846691, "994730", 1533846691, "994730", null, "LINK-012625", "mn-05-134496", "50 EAST 27 STREET", "PARK AVENUE SOUTH", "MADISON AVENUE", "SW", "Manhattan", "10010", "105", "2", "Yes", "Flatiron/23rd Street", "C5-3", "Hudson Yards-Chelsea-Flatiron-Union Square", "1005600", "1016880", "1008560024", "40.74267055419113", "-73.98472140483517", "2018-04-05T00:00:00", "2018-10-05T00:00:00", "Suspended Permanently", "Ready to Submit to DOT", [ null, "40.74267055419113", "-73.98472140483517", null, false ] ]
+, [ 95, "C2A169DE-F0D5-47FB-BE6E-18A8B59AD807", 95, 1533846691, "994730", 1533846691, "994730", null, "LINK-011084", "mn-04-136089", "126 9 AVENUE", "WEST 17 STREET", "WEST 18 STREET", "SE", "Manhattan", "10011", "104", "3", "No", null, "C2-6A", "Hudson Yards-Chelsea-Flatiron-Union Square", "1008300", "1013089", "1007410067", "40.74329816", "-74.00350189", "2018-04-05T00:00:00", "2018-10-05T00:00:00", "In Progress", "DOT In Progress", [ null, "40.74329816", "-74.00350189", null, false ] ]
+, [ 96, "59C56429-3134-4F17-9C5B-93578C28A0F0", 96, 1533846691, "994730", 1533846691, "994730", null, "LINK-012640", "mn-05-134631", "407 PARK AVENUE SOUTH", "EAST 28 STREET", "EAST 29 STREET", "NE", "Manhattan", "10016", "105", "2", "Yes", "Flatiron/23rd Street", "C6-4A", "Murray Hill-Kips Bay", "1007200", "1018204", "1008840001", "40.74339468", "-73.9838785", "2018-02-13T00:00:00", "2018-08-13T00:00:00", "Installed", "Link Active!", [ null, "40.74339468", "-73.9838785", null, false ] ]
+, [ 97, "B9A7DBEA-F68B-421E-A72D-35E5F6B08647", 97, 1533846691, "994730", 1533846691, "994730", null, "LINK-000288", "mn-06-134711", "460 3 AVENUE", "EAST 32 STREET", "EAST 31 STREET", "SWC", "Manhattan", "10016", "106", "2", "No", null, "C1-9", "Murray Hill-Kips Bay", "1007200", "1078756", "1008870030", "40.74438927", "-73.97925718", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "DOT In Progress", [ null, "40.74438927", "-73.97925718", null, false ] ]
+, [ 98, "B2B011E7-C128-4258-954D-C2A380D97620", 98, 1533846691, "994730", 1533846691, "994730", null, "LINK-014623", "mn-06-134852", "170 EAST 33 STREET", "3 AVENUE", "LEXINGTON AVENUE", "SW", "Manhattan", "10016", "106", "2", "No", null, "C1-9", "Murray Hill-Kips Bay", "1007200", "1018483", "1008880044", "40.74509981", "-73.97882096", "2018-02-13T00:00:00", "2018-08-13T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.74509981", "-73.97882096", null, false ] ]
+, [ 99, "17B2B61A-F229-439B-A070-B2FE9162E61B", 99, 1533846691, "994730", 1533846691, "994730", null, "LINK-012683", "mn-06-137011", "724 2 AVENUE", "EAST 39 STREET", "EAST 38 STREET", "SE", "Manhattan", "10016", "106", "4", "No", null, "C1-9", "Murray Hill-Kips Bay", "1007800", "1081684", "1009440045", "40.74769731", "-73.97360951", "2018-03-28T00:00:00", "2018-09-28T00:00:00", "In Progress", "Ready for ConEd", [ null, "40.74769731", "-73.97360951", null, false ] ]
+, [ 100, "D16D3B3E-E901-4CF6-90F8-EE3E663DE374", 100, 1533846691, "994730", 1533846691, "994730", null, "LINK-009919", "mn-05-122006", "423 7 AVENUE", "WEST 33 STREET", "WEST 34 STREET", "NE", "Manhattan", "10001", "105", "3", "Yes", "34th Street", "C6-6", "Midtown-Midtown South", "1010100", "1015192", "1008090001", "40.75040829", "-73.99092699", "2018-05-24T00:00:00", "2018-11-24T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.75040829", "-73.99092699", null, false ] ]
+, [ 101, "AF15F136-5F2C-421E-AF73-8CB389FA96C1", 101, 1533846691, "994730", 1533846691, "994730", null, "LINK-010767", "mn-04-122017", "333 9 AVENUE", "WEST 29 STREET", "WEST 30 STREET", "NW", "Manhattan", "10001", "104", "3", "No", null, "M1-5", "Hudson Yards-Chelsea-Flatiron-Union Square", "1009700", "1012831", "1007270001", "40.75041676", "-73.99862092", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "DOT In Progress", [ null, "40.75041676", "-73.99862092", null, false ] ]
+, [ 102, "E7CDB756-4A17-4BC1-9450-5C012BD54C7F", 102, 1533846691, "994730", 1533846691, "994730", null, "LINK-012599", "mn-04-134926", "350 9 AVENUE", "WEST 30 STREET", "WEST 29 STREET", "SE", "Manhattan", "10001", "104", "3", "No", null, "C6-2A", "Hudson Yards-Chelsea-Flatiron-Union Square", "1009700", "1068013", "1007530078", "40.7506959", "-73.99810536", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "DOT In Progress", [ null, "40.7506959", "-73.99810536", null, false ] ]
+, [ 103, "4200FE30-5C8E-4065-A2F4-D2AAD8F781A7", 103, 1533846691, "994730", 1533846691, "994730", null, "LINK-013816", "mn-04-122018", "370 9 AVENUE", "WEST 31 STREET", "WEST 30 STREET", "SE", "Manhattan", "10001", "104", "3", "Yes", "34th Street", "C6-3X", "Hudson Yards-Chelsea-Flatiron-Union Square", "1010300", "1013540", "1007540078", "40.75133238", "-73.99765535", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "DOT In Progress", [ null, "40.75133238", "-73.99765535", null, false ] ]
+, [ 104, "5DE06A42-7F6E-4897-8049-F79E023ED15A", 104, 1533846691, "994730", 1533846691, "994730", null, "LINK-000721", "mn-05-138374", "286 MADISON AVENUE", "EAST 40 STREET", "EAST 41 STREET", "NWC", "Manhattan", "10017", "105", "4", "Yes", "Grand Central", "C5-3", "Murray Hill-Kips Bay", "1008200", "1035316", "1012750014", "40.75168494", "-73.98020476", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "DOT In Progress", [ null, "40.75168494", "-73.98020476", null, false ] ]
+, [ 105, "F9FC3380-CA49-4115-A41C-1330E0735CD9", 105, 1533846691, "994730", 1533846691, "994730", null, "LINK-000145", "mn-05-134819", "1359 BROADWAY", "WEST 37 STREET", "WEST 36 STREET", "SWC", "Manhattan", "10018", "105", "3", "Yes", "Garment District", "M1-6", "Midtown-Midtown South", "1010900", "1015245", "1008120056", "40.75210164", "-73.98762979", "2018-05-14T00:00:00", "2018-11-14T00:00:00", "Suspended Permanently", "CX In Progress", [ null, "40.75210164", "-73.98762979", null, false ] ]
+, [ 106, "5878432F-77F4-4863-9CEE-89A8E7731C87", 106, 1533846691, "994730", 1533846691, "994730", null, "LINK-012267", "mn-05-138139", "261 WEST 35 STREET", "7 AVENUE", "8 AVENUE", "MIDBLOCK", "Manhattan", "10018", "105", "3", "Yes", "34th Street", "M1-6", "Midtown-Midtown South", "1010900", "1014422", "1007850007", "40.75269546", "-73.99244331", "2018-04-05T00:00:00", "2018-10-05T00:00:00", "Suspended Permanently", "Ready for CX", [ null, "40.75269546", "-73.99244331", null, false ] ]
+, [ 107, "1F190F22-A3B8-4A57-A397-69346F88A0F5", 107, 1533846691, "994730", 1533846691, "994730", null, "LINK-010614", "mn-04-138822", "314 11 AVENUE", "WEST 30 STREET", "WEST 29 STREET", "SEC", "Manhattan", "10001", "104", "3", "No", null, "C6-4", "Hudson Yards-Chelsea-Flatiron-Union Square", "1009900", "1088120", "1007010062", "40.753067", "-74.003811", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "In Progress", "Ready to Install", [ null, "40.753067", "-74.003811", null, false ] ]
+, [ 108, "AEEBC758-55D5-4084-AD8F-510038E14216", 108, 1533846691, "994730", 1533846691, "994730", null, "LINK-000153", "mn-05-122178", "1410 BROADWAY", "WEST 39 STREET", "WEST 38 STREET", "SEC", "Manhattan", "10018", "105", "4", "Yes", "Garment District", "C5-3", "Midtown-Midtown South", "1011300", "1015274", "1008140052", "40.75337959890853", "-73.98703913988112", "2018-02-15T00:00:00", "2018-08-15T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.75337959890853", "-73.98703913988112", null, false ] ]
+, [ 109, "7D66A709-F46E-48E6-85E9-9C9FD5579E8E", 109, 1533846691, "994730", 1533846691, "994730", null, "LINK-012790", "mn-06-137127", "400 EAST 50 STREET", "1 AVENUE", "BEEKMAN PLACE", "SE", "Manhattan", "10022", "106", "4", "No", null, "C1-5", "Turtle Bay-East Midtown", "1008603", "1040090", "1013610049", "40.75375106", "-73.96597025", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.75375106", "-73.96597025", null, false ] ]
+, [ 110, "9A561D93-BB67-4510-9E4A-8063DF52C4F1", 110, 1533846691, "994730", 1533846691, "994730", null, "LINK-001359", "qu-02-138662", "62-10 NORTHERN BOULEVARD", "62 STREET", "64 STREET", "SEC", "Queens", "11377", "402", "26", "No", null, "M1-1", "Woodside", "4029300", "4027108", "4011850001", "40.75391039", "-73.90009406", "2018-05-29T00:00:00", "2018-11-29T00:00:00", "Installed", "Link Active!", [ null, "40.75391039", "-73.90009406", null, false ] ]
+, [ 111, "15979140-2DD2-4AD6-A0C2-49E1130F553A", 111, 1533846691, "994730", 1533846691, "994730", null, "LINK-010758", "mn-04-122009", "380 WEST 35 STREET", "9 AVENUE", "8 AVENUE", "SE", "Manhattan", "10001", "104", "3", "Yes", "34th Street", "C6-4", "Hudson Yards-Chelsea-Flatiron-Union Square", "1011100", "1013562", "1007580082", "40.75394109", "-73.99568565", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "DOT In Progress", [ null, "40.75394109", "-73.99568565", null, false ] ]
+, [ 112, "F21DA366-AEE4-406A-B448-ABC1FA2214A0", 112, 1533846691, "994730", 1533846691, "994730", null, "LINK-013239", "mn-05-135289", "555 7 AVENUE", "WEST 40 STREET", "WEST 39 STREET", "SE", "Manhattan", "10018", "105", "3", "Yes", "Garment District", "C5-3", "Midtown-Midtown South", "1011300", "1015275", "1008150001", "40.75459034", "-73.98787592", "2018-05-14T00:00:00", "2018-11-14T00:00:00", "Suspended Permanently", "CX In Progress", [ null, "40.75459034", "-73.98787592", null, false ] ]
+, [ 113, "728BB786-5AC2-48EB-AE24-4A2B4AD087C6", 113, 1533846691, "994730", 1533846691, "994730", null, "LINK-021033", "qu-03-GF44275", "73-22 NORTHERN BOULEVARD", "74 STREET", "73 STREET", "SW", "Queens", "11372", "403", "25", "No", null, "C2-2", "Jackson Heights", "4028900", "4028634", "4012460006", "40.75466480980276", "-73.89293325203073", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.75466480980276", "-73.89293325203073", null, false ] ]
+, [ 114, "A9D73BF7-7034-4903-B842-FEC3B8C9FF8D", 114, 1533846691, "994730", 1533846691, "994730", null, "LINK-001361", "qu-03-118496", "73-01 NORTHERN BOULEVARD", "73 STREET", "74 STREET", "NE", "Queens", "11370", "403", "25", "No", null, "C1-2", "Jackson Heights", "4030902", "4026513", "4011690049", "40.75479756", "-73.89359796", "2018-05-03T00:00:00", "2018-11-03T00:00:00", "In Progress", "Ready for ConEd", [ null, "40.75479756", "-73.89359796", null, false ] ]
+, [ 115, "D5FD13BA-CED9-4A55-95A4-12C1FBBCC1C2", 115, 1533846691, "994730", 1533846691, "994730", null, "LINK-000679", "mn-06-136697", "511 LEXINGTON AVENUE", "EAST 48 STREET", "EAST 47 STREET", "SE", "Manhattan", "10017", "106", "4", "No", null, "C6-6", "Turtle Bay-East Midtown", "1009200", "1036219", "1013020051", "40.7550884", "-73.97327607", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "In Progress", "Ready to Install", [ null, "40.7550884", "-73.97327607", null, false ] ]
+, [ 116, "43953CF7-B045-4E36-9E89-211E2BF8EEB0", 116, 1533846691, "994730", 1533846691, "994730", null, "LINK-012669", "mn-04-135703", "487 9 AVENUE", "WEST 37 STREET", "WEST 38 STREET", "NW", "Manhattan", "10018", "104", "3", "Yes", "Hudson Yards/Hell's Kitchen", "C1-7A", "Hudson Yards-Chelsea-Flatiron-Union Square", "1011100", "1090062", "1007350025", "40.755483823850675", "-73.99492136770164", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "DOT In Progress", [ null, "40.755483823850675", "-73.99492136770164", null, false ] ]
+, [ 117, "47D5E30F-05FB-4429-B122-F88A0084EEE8", 117, 1533846691, "994730", 1533846691, "994730", null, "LINK-012547", "mn-04-134568", "500 9 AVENUE", "WEST 38 STREET", "WEST 37 STREET", "SE", "Manhattan", "10018", "104", "3", "Yes", "Hudson Yards/Hell's Kitchen", "C1-7A", "Hudson Yards-Chelsea-Flatiron-Union Square", "1011100", "1083613", "1007610064", "40.75574866", "-73.99443703", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "DOT In Progress", [ null, "40.75574866", "-73.99443703", null, false ] ]
+, [ 118, "A983F22E-2960-463A-A9BF-4DE7B8A1323E", 118, 1533846691, "994730", 1533846691, "994730", null, "LINK-012359", "mn-06-121688", "966 1 AVENUE", "EAST 53 STREET", "EAST 54 STREET", "NE", "Manhattan", "10022", "106", "4", "No", null, "C1-5", "Turtle Bay-East Midtown", "1008603", "1040162", "1013657501", "40.75581174", "-73.96459519", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.75581174", "-73.96459519", null, false ] ]
+, [ 119, "D3EAEF0C-396A-4362-94CA-36CF4B325384", 119, 1533846691, "994730", 1533846691, "994730", null, "LINK-010830", "mn-06-121687", "353 EAST 53 STREET", "1 AVENUE", "2 AVENUE", "NW", "Manhattan", "10022", "106", "4", "No", null, "C1-5", "Turtle Bay-East Midtown", "1009800", "1039836", "1013460023", "40.7558757", "-73.96492547", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "Ready for CX", [ null, "40.7558757", "-73.96492547", null, false ] ]
+, [ 120, "E3D1BB7B-461D-4318-9C73-CBFF3CD9F12D", 120, 1533846691, "994730", 1533846691, "994730", null, "LINK-010703", "mn-06-121684", "976 1 AVENUE", "EAST 54 STREET", "EAST 53 STREET", "SE", "Manhattan", "10022", "106", "4", "No", null, "C1-5", "Turtle Bay-East Midtown", "1008603", "1076281", "1013657502", "40.7562636", "-73.96418188", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.7562636", "-73.96418188", null, false ] ]
+, [ 121, "F29CDB9F-FF00-45EA-8087-FC035C330AD7", 121, 1533846691, "994730", 1533846691, "994730", null, "LINK-010650", "mn-06-138509", "397 EAST 54 STREET", "1 AVENUE", "2 AVENUE", "NE", "Manhattan", "10022", "106", "4", "No", null, "C1-5", "Turtle Bay-East Midtown", "1010601", "1085122", "1013660001", "40.75629836", "-73.96397801", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.75629836", "-73.96397801", null, false ] ]
+, [ 123, "656ADD14-80D9-417D-BCEE-23107818A7CB", 123, 1533846691, "994730", 1533846691, "994730", null, "LINK-020898", "qu-03-GF44140", "92-01 NORTHERN BOULEVARD", "NORTHERN BOULEVARD", "32 AVENUE", "NE", "Queens", "11369", "403", "21", "No", null, "C8-1", "Jackson Heights", "4035100", "4034862", "4014220034", "40.75674064490062", "-73.87604344901206", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.75674064490062", "-73.87604344901206", null, false ] ]
+, [ 124, "85930906-7E7B-4B41-9AEC-3378B944B6A8", 124, 1533846691, "994730", 1533846691, "994730", null, "LINK-000161", "mn-05-122549", "1592 BROADWAY", "WEST 48 STREET", "WEST 47 STREET", "SEC", "Manhattan", "10036", "105", "4", "Yes", "Times Square", "C6-7T", "Midtown-Midtown South", "1012500", "1024757", "1010197501", "40.759942", "-73.984756", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "DOT In Progress", [ null, "40.759942", "-73.984756", null, false ] ]
+, [ 125, "C1D9A3E5-6C0D-4A83-A269-F4E3F98B7F05", 125, 1533846691, "994730", 1533846691, "994730", null, "LINK-012652", "mn-04-135804", "604 10 AVENUE", "WEST 44 STREET", "WEST 43 STREET", "SE", "Manhattan", "10036", "104", "3", "No", null, "C2-5", "Clinton", "1012100", "1000000", "1010537503", "40.76078532", "-73.99449341", "2018-07-16T00:00:00", "2019-01-16T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.76078532", "-73.99449341", null, false ] ]
+, [ 126, "29219501-6DC9-46B1-A500-FDB2933377D7", 126, 1533846691, "994730", 1533846691, "994730", null, "LINK-012297", "mn-08-138568", "344 EAST 61 STREET", "1 AVENUE", "ED KOCH QUEENSBORO BRIDGE EXIT", "SW", "Manhattan", "10065", "108", "5", "No", null, "C8-4", "Lenox Hill-Roosevelt Island", "1011000", "1044211", "1014350030", "40.76094634", "-73.96139743", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Active!", [ null, "40.76094634", "-73.96139743", null, false ] ]
+, [ 127, "2553E245-2A56-4A36-8454-E73008724BCE", 127, 1533846691, "994730", 1533846691, "994730", null, "LINK-012367", "mn-08-121705", "355 EAST 61 STREET", "1 AVENUE", "ED KOCH QUEENSBORO BRIDGE EXIT", "NW", "Manhattan", "10065", "108", "5", "No", null, "C2-8", "Lenox Hill-Roosevelt Island", "1011000", "1044235", "1014360023", "40.76099046", "-73.96121478", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "Ready for CX", [ null, "40.76099046", "-73.96121478", null, false ] ]
+, [ 128, "8F953202-55DC-4C94-AD0F-095CE0CEA012", 128, 1533846691, "994730", 1533846691, "994730", null, "LINK-012618", "mn-08-135076", "1126 1 AVENUE", "EAST 62 STREET", "EAST 61 STREET", "SE", "Manhattan", "10065", "108", "5", "No", null, "C8-4", "Lenox Hill-Roosevelt Island", "1010602", "1045288", "1014560046", "40.76126735", "-73.96062004", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Active!", [ null, "40.76126735", "-73.96062004", null, false ] ]
+, [ 129, "3F04446E-59D8-4B0A-AAF3-5904F0FD0E56", 129, 1533846691, "994730", 1533846691, "994730", null, "LINK-013760", "mn-08-121697", "400 EAST 63 STREET", "1 AVENUE", "YORK AVENUE", "SE", "Manhattan", "10065", "108", "5", "No", null, "C1-9", "Lenox Hill-Roosevelt Island", "1010602", "1045317", "1014570045", "40.76199324", "-73.95999822", "2018-04-24T00:00:00", "2018-10-24T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.76199324", "-73.95999822", null, false ] ]
+, [ 130, "87AD02FE-FE3A-4EDF-A4B8-38FA7A7ED928", 130, 1533846691, "994730", 1533846691, "994730", null, "LINK-012685", "mn-04-135797", "656 10 AVENUE", "WEST 46 STREET", "WEST 47 STREET", "NE", "Manhattan", "10036", "104", "3", "No", null, "C2-5", "Clinton", "1012700", "1081664", "1010560001", "40.76233629", "-73.99336769", "2018-05-03T00:00:00", "2018-11-03T00:00:00", "In Progress", "DOT In Progress", [ null, "40.76233629", "-73.99336769", null, false ] ]
+, [ 131, "951C1335-F737-44DE-8E64-B94595189C1C", 131, 1533846691, "994730", 1533846691, "994730", null, "LINK-012671", "mn-08-135119", "1166 1 AVENUE", "EAST 64 STREET", "EAST 63 STREET", "SE", "Manhattan", "10065", "108", "5", "No", null, "C1-9", "Lenox Hill-Roosevelt Island", "1010602", "1045387", "1014580045", "40.76259531", "-73.95964853", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.76259531", "-73.95964853", null, false ] ]
+, [ 132, "A5D4B28C-6F7A-448E-81D8-30E686A11D05", 132, 1533846691, "994730", 1533846691, "994730", null, "LINK-012159", "qu-07-141962", "161-03 NORTHERN BOULEVARD", "161 STREET", "CROCHERON AVENUE", "NE", "Queens", "11358", "407", "19", "No", null, "C1-2", "Murray Hill", "4117100", "4119429", "4052817501", "40.76265343", "-73.80447791", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.76265343", "-73.80447791", null, false ] ]
+, [ 133, "75E39F2A-5B13-4127-8FA9-82A398DBC8BC", 133, 1533846691, "994730", 1533846691, "994730", null, "LINK-014449", "qu-07-124424", "160-02 NORTHERN BOULEVARD", "160 STREET", "161 STREET", "MIDBLOCK", "Queens", "11358", "407", "20", "No", null, "C1-2", "Murray Hill", "4117100", "4120445", "4053350048", "40.76272985", "-73.80538763", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.76272985", "-73.80538763", null, false ] ]
+, [ 134, "EDAC0688-AACE-42ED-B206-FE26AC0869F7", 134, 1533846691, "994730", 1533846691, "994730", null, "LINK-011022", "qu-07-140184", "158-14 NORTHERN BOULEVARD", "159 STREET", "158 STREET", "MIDBLOCK", "Queens", "11358", "407", "20", "No", null, "C1-2", "Murray Hill", "4117100", "4119366", "4052770025", "40.76314008", "-73.8065974", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.76314008", "-73.8065974", null, false ] ]
+, [ 135, "72F37DB9-B71C-4C4E-80C2-27568B5D1D2D", 135, 1533846691, "994730", 1533846691, "994730", null, "LINK-012553", "mn-08-135869", "1208 1 AVENUE", "EAST 65 STREET", "EAST 66 STREET", "NE", "Manhattan", "10065", "108", "5", "No", null, "C1-9", "Lenox Hill-Roosevelt Island", "1011600", "1045391", "1014600001", "40.76343296", "-73.95903881", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.76343296", "-73.95903881", null, false ] ]
+, [ 136, "3D51321C-A5F2-4862-B098-364233FAAAFD", 136, 1533846691, "994730", 1533846691, "994730", null, "LINK-010598", "qu-07-130506", "35-27 FARRINGTON STREET", "35 AVENUE", "NORTHERN BOULEVARD", "MIDBLOCK", "Queens", "11354", "407", "20", "No", null, "C2-2", "Flushing", "4086900", "4311689", "4049590004", "40.76346093", "-73.83129225", "2018-03-15T00:00:00", "2018-09-15T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.76346093", "-73.83129225", null, false ] ]
+, [ 137, "6D58CE0D-6836-42FF-A147-6ECF20EB5FFF", 137, 1533846691, "994730", 1533846691, "994730", null, "LINK-011804", "qu-07-144732", "137-35 NORTHERN BOULEVARD", "LINDEN PLACE", "LEAVITT STREET", "SW", "Queens", "11354", "407", "20", "No", null, "C2-2", "Flushing", "4086900", "4112147", "4049600001", "40.76364577", "-73.8300977", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.76364577", "-73.8300977", null, false ] ]
+, [ 138, "1A079C2C-1ABB-4F68-8463-D0038875FAE4", 138, 1533846691, "994730", 1533846691, "994730", null, "LINK-011893", "qu-07-124356", "138-02 NORTHERN BOULEVARD", "UNION STREET", "BOWNE STREET", "SE", "Queens", "11354", "407", "20", "No", null, "C1-2", "Flushing", "4086500", "4113289", "4050100020", "40.76382803", "-73.8279816", "2018-05-03T00:00:00", "2018-11-03T00:00:00", "In Progress", "Ready for ConEd", [ null, "40.76382803", "-73.8279816", null, false ] ]
+, [ 139, "E358EC3E-039E-47FC-AFB3-1ACFA25EF9A5", 139, 1533846691, "994730", 1533846691, "994730", null, "LINK-014620", "qu-07-124421", "155-14 ROOSEVELT AVENUE", "NORTHERN BOULEVARD", "155 STREET", "MIDBLOCK", "Queens", "11354", "407", "20", "No", null, "C1-2", "Murray Hill", "4117100", "4119346", "4052750132", "40.76395477", "-73.80948298", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.76395477", "-73.80948298", null, false ] ]
+, [ 140, "CF8D4756-2008-40D1-964B-2AEA9A7415E3", 140, 1533846691, "994730", 1533846691, "994730", null, "LINK-000546", "mn-04-122607", "881 8 AVENUE", "WEST 53 STREET", "WEST 52 STREET", "SEC", "Manhattan", "10019", "104", "3", "Yes", "Times Square", "C6-4", "Clinton", "1013300", "1025323", "1010437502", "40.76410523", "-73.98493289", "2018-04-12T00:00:00", "2018-10-12T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.76410523", "-73.98493289", null, false ] ]
+, [ 141, "9782F220-CC97-44C1-83A7-855881B9F98A", 141, 1533846691, "994730", 1533846691, "994730", null, "LINK-012804", "mn-08-135072", "343 EAST 66 STREET", "1 AVENUE", "2 AVENUE", "NW", "Manhattan", "10065", "108", "5", "No", null, "C1-9", "Lenox Hill-Roosevelt Island", "1011800", "1044741", "1014410023", "40.764116575756425", "-73.95894778204809", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.764116575756425", "-73.95894778204809", null, false ] ]
+, [ 142, "9046CF11-E5C5-40E3-958E-2929CFCBB7B6", 142, 1533846691, "994730", 1533846691, "994730", null, "LINK-014632", "qu-07-137929", "35-34 PARSONS BOULEVARD", "NORTHERN BOULEVARD", "35 AVENUE", "NW", "Queens", "11354", "407", "20", "No", null, "C1-2", "Flushing", "4116100", "4113179", "4050020074", "40.76483366", "-73.82361026", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.76483366", "-73.82361026", null, false ] ]
+, [ 143, "337BC159-1F51-40B7-8DC4-69C1E73AAE0F", 143, 1533846691, "994730", 1533846691, "994730", null, "LINK-013142", "qu-07-124357", "144-73 NORTHERN BOULEVARD", "146 STREET", "PARSONS BOULEVARD", "NW", "Queens", "11354", "407", "20", "No", null, "C1-2", "Murray Hill", "4116300", "4113195", "4050030041", "40.76506671", "-73.82089974", "2018-03-30T00:00:00", "2018-09-30T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.76506671", "-73.82089974", null, false ] ]
+, [ 144, "6B2281DB-F338-4E2F-9D23-17224FECE7E5", 144, 1533846691, "994730", 1533846691, "994730", null, "LINK-013627", "qu-07-124349", "150-32 NORTHERN BOULEVARD", "150 PLACE", "150 STREET", "SE", "Queens", "11354", "407", "20", "No", null, "C2-2", "Murray Hill", "4115700", "4114069", "4050330014", "40.76506827", "-73.81388841", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.76506827", "-73.81388841", null, false ] ]
+, [ 145, "8D99C7EE-43BF-4A74-85A0-0F88C3251E05", 145, 1533846691, "994730", 1533846691, "994730", null, "LINK-010426", "qu-07-138935", "35-97 146 STREET", "NORTHERN BOULEVARD", "35 AVENUE", "NE", "Queens", "11354", "407", "20", "No", "4113203", "C1-2", "Murray Hill", "4116300", "4113203", "4050040001", "40.76513575", "-73.82063559", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.76513575", "-73.82063559", null, false ] ]
+, [ 146, "58FC722C-0587-45BD-BB3F-C3683DC7F8EB", 146, 1533846691, "994730", 1533846691, "994730", null, "LINK-013673", "mn-08-120952", "1259 1 AVENUE", "EAST 68 STREET", "EAST 67 STREET", "SW", "Manhattan", "10065", "108", "5", "No", null, "R8B", "Lenox Hill-Roosevelt Island", "1011800", "1086891", "1014420015", "40.76519297", "-73.95806217", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.76519297", "-73.95806217", null, false ] ]
+, [ 147, "DA877000-1D03-4B2E-AE77-D9E61EAE757E", 147, 1533846691, "994730", 1533846691, "994730", null, "LINK-013153", "qu-07-124348", "147-50 NORTHERN BOULEVARD", "149 STREET", "147 STREET", "SW", "Queens", "11354", "407", "20", "No", null, "C1-2", "Murray Hill", "4116300", "4000000", "4050160039", "40.76525205", "-73.81744596", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.76525205", "-73.81744596", null, false ] ]
+, [ 148, "EF71A5CE-9900-4036-9747-B0949EF078EE", 148, 1533846691, "994730", 1533846691, "994730", null, "LINK-000561", "mn-05-119839", "235 WEST 56 STREET", "8 AVENUE", "BROADWAY", "NE", "Manhattan", "10019", "105", "3", "No", null, "C6-6", "Midtown-Midtown South", "1013700", "1070014", "1010287501", "40.76599679", "-73.98311691", "2018-02-12T00:00:00", "2018-08-12T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.76599679", "-73.98311691", null, false ] ]
+, [ 149, "C69ACBA7-7BAF-44B8-99EC-F5F6E1ED8C2F", 149, 1533846691, "994730", 1533846691, "994730", null, "LINK-012376", "mn-08-121861", "24 EAST 63 STREET", "MADISON AVENUE", "5 AVENUE", "MIDBLOCK", "Manhattan", "10065", "108", "4", "Yes", "Madison Avenue", "C5-1", "Upper East Side-Carnegie Hill", "1011401", "1040908", "1013770058", "40.766215508783006", "-73.9699786709761", "2018-03-26T00:00:00", "2018-09-26T00:00:00", "In Progress", "Ready to Install", [ null, "40.766215508783006", "-73.9699786709761", null, false ] ]
+, [ 150, "0308D5A7-1FB4-4994-8869-D5A9A862C407", 150, 1533846691, "994730", 1533846691, "994730", null, "LINK-012377", "mn-08-121134", "45 EAST 66 STREET", "MADISON AVENUE", "PARK AVENUE", "NE", "Manhattan", "10065", "108", "4", "Yes", "Madison Avenue", "C5-1", "Upper East Side-Carnegie Hill", "1012200", "1076285", "1013817502", "40.76804873433544", "-73.9680425433703", "2018-07-30T00:00:00", "2019-01-30T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.76804873433544", "-73.9680425433703", null, false ] ]
+, [ 151, "94E0E3E9-59A2-4617-A399-CB561767E78E", 151, 1533846691, "994730", 1533846691, "994730", null, "LINK-021026", "qu-01-GF44268", "24-14 STEINWAY STREET", "ASTORIA BOULEVARD SOUTH", "28 AVENUE", "SW", "Queens", "11103", "401", "22", "No", null, "C2-3", "Astoria", "4014300", "4010271", "4006540053", "40.768637114352885", "-73.91123520945246", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.768637114352885", "-73.91123520945246", null, false ] ]
+, [ 152, "B6BDAC8D-A316-450A-9211-0773C7B3639D", 152, 1533846691, "994730", 1533846691, "994730", null, "LINK-013526", "qu-01-125165", "37-02 ASTORIA BOULEVARD SOUTH", "37 STREET", "38 STREET", "SE", "Queens", "11103", "401", "22", "No", null, "C2-3", "Astoria", "4006502", "4010183", "4006530043", "40.76909552", "-73.912837", "2018-05-29T00:00:00", "2018-11-29T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.76909552", "-73.912837", null, false ] ]
+, [ 153, "F3431CFE-57C6-49C3-BA85-3796C90B4A17", 153, 1533846691, "994730", 1533846691, "994730", null, "LINK-014205", "mn-08-107971", "1410 1 AVENUE", "EAST 74 STREET", "EAST 75 STREET", "MIDBLOCK", "Manhattan", "10021", "108", "5", "No", null, "C1-9", "Lenox Hill-Roosevelt Island", "1013200", "1045891", "1014697501", "40.76950566", "-73.95460936", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.76950566", "-73.95460936", null, false ] ]
+, [ 154, "35F8AAEF-C75B-453F-B6E8-73168408C132", 154, 1533846691, "994730", 1533846691, "994730", null, "LINK-010694", "mn-08-121141", "17 EAST 69 STREET", "MADISON AVENUE", "5 AVENUE", "NW", "Manhattan", "10021", "108", "4", "Yes", "Madison Avenue", "C5-1", "Upper East Side-Carnegie Hill", "1012200", "1041297", "1013847502", "40.76995359443586", "-73.96698636625769", "2018-02-13T00:00:00", "2018-08-13T00:00:00", "Temporarily Suspended", "Ready for CX", [ null, "40.76995359443586", "-73.96698636625769", null, false ] ]
+, [ 155, "DEB1A220-6E46-48EC-8028-ABE19B6B7DB8", 155, 1533846691, "994730", 1533846691, "994730", null, "LINK-021013", "qu-01-146090", "28-11 ASTORIA BOULEVARD", "27 STREET", "29 STREET", "MIDBLOCK", "Queens", "11102", "401", "22", "No", null, "C1-3", "Old Astoria", "4006900", "4431076", "4008390012", "40.77074708", "-73.92035427", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "Installed", "Link Active!", [ null, "40.77074708", "-73.92035427", null, false ] ]
+, [ 156, "E1E07B24-3021-4CCD-BF48-639F5D32ACF5", 156, 1533846691, "994730", 1533846691, "994730", null, "LINK-021014", "qu-01-146088", "25-35 ASTORIA BOULEVARD", "27 STREET", "CRESCENT STREET", "NW", "Queens", "11102", "401", "22", "No", null, "C1-3", "Old Astoria", "4006900", "4018497", "4008610001", "40.77105459928025", "-73.92149600805362", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "Installed", "Link Active!", [ null, "40.77105459928025", "-73.92149600805362", null, false ] ]
+, [ 157, "D4626439-E124-4344-A27C-5CA3E5360CB0", 157, 1533846691, "994730", 1533846691, "994730", null, "LINK-012777", "mn-08-135261", "1496 1 AVENUE", "EAST 78 STREET", "EAST 79 STREET", "NE", "Manhattan", "10075", "108", "5", "No", null, "C1-9", "Lenox Hill-Roosevelt Island", "1013200", "1046011", "1014737503", "40.77175544", "-73.95296249", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "Ready for CX", [ null, "40.77175544", "-73.95296249", null, false ] ]
+, [ 158, "8F08278C-3948-45D9-B271-1B3455567083", 158, 1533846691, "994730", 1533846691, "994730", null, "LINK-020949", "qu-01-146087", "21-04 NEWTON AVENUE", "ASTORIA BOULEVARD", "23 STREET", "SW", "Queens", "11102", "401", "22", "No", null, "C2-3", "Old Astoria", "4007100", "4458141", "4005430015", "40.772033138878896", "-73.92577772187684", "2018-03-20T00:00:00", "2018-09-20T00:00:00", "Installed", "Link Active!", [ null, "40.772033138878896", "-73.92577772187684", null, false ] ]
+, [ 159, "598B5C8E-BCD3-41A8-B63F-49AC472B8630", 159, 1533846691, "994730", 1533846691, "994730", null, "LINK-010704", "mn-08-121029", "29 EAST 74 STREET", "MADISON AVENUE", "5 AVENUE", "NW", "Manhattan", "10021", "108", "4", "Yes", "Madison Avenue", "C5-1", "Upper East Side-Carnegie Hill", "1013000", "1041644", "1013890017", "40.77321253", "-73.96461035", "2018-08-02T00:00:00", "2019-02-02T00:00:00", "In Progress", "Ready for CX", [ null, "40.77321253", "-73.96461035", null, false ] ]
+, [ 160, "FE8EA1A7-C043-46FE-B312-05488B368EAF", 160, 1533846691, "994730", 1533846691, "994730", null, "LINK-013547", "qu-01-125209", "37-04 DITMARS BOULEVARD", "37 STREET", "38 STREET", "SE", "Queens", "11105", "401", "22", "No", null, "C2-3", "Steinway", "4011700", "4015886", "4008060029", "40.77370666", "-73.90737487", "2018-07-30T00:00:00", "2019-01-30T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.77370666", "-73.90737487", null, false ] ]
+, [ 161, "D11B4BD0-422D-47D3-8B64-F255D5653D97", 161, 1533846691, "994730", 1533846691, "994730", null, "LINK-000925", "mn-07-134458", "1976 BROADWAY", "BROADWAY", "COLUMBUS CIRCLE", "SEC", "Manhattan", "10023", "107", "6", "Yes", "Lincoln Square", "C4-7", "Lincoln Square", "1015300", "1028840", "1011387501", "40.77448802", "-73.98187499", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "Ready for CX", [ null, "40.77448802", "-73.98187499", null, false ] ]
+, [ 162, "E8B2744B-A71F-4A43-B123-58C86AB8416E", 162, 1533846691, "994730", 1533846691, "994730", null, "LINK-011125", "qu-01-139073", "33-03 DITMARS BOULEVARD", "33 STREET", "35 STREET", "NE", "Queens", "11105", "401", "22", "No", null, "C1-3", "Steinway", "4011300", "4311899", "4008307501", "40.77533297", "-73.90945755", "2018-07-30T00:00:00", "2019-01-30T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.77533297", "-73.90945755", null, false ] ]
+, [ 163, "D6ED5741-2C83-4D44-9B12-A32782E940FC", 163, 1533846691, "994730", 1533846691, "994730", null, "LINK-012483", "mn-08-121044", "40 EAST 78 STREET", "MADISON AVENUE", "PARK AVENUE", "SE", "Manhattan", "10075", "108", "4", "Yes", "Madison Avenue", "C5-1", "Upper East Side-Carnegie Hill", "1014200", "1072068", "1013927501", "40.77554038", "-73.96251162", "2018-07-30T00:00:00", "2019-01-30T00:00:00", "In Progress", "Ready for CX", [ null, "40.77554038", "-73.96251162", null, false ] ]
+, [ 164, "B85E45CE-7260-4932-800D-CA2BB0550EC5", 164, 1533846691, "994730", 1533846691, "994730", null, "LINK-010765", "mn-08-121068", "133 EAST 80 STREET", "LEXINGTON AVENUE", "PARK AVENUE", "NW", "Manhattan", "10028", "108", "4", "No", null, "C1-8X", "Upper East Side-Carnegie Hill", "1014000", "1047509", "1015090016", "40.77575159629016", "-73.95850007953584", "2018-02-22T00:00:00", "2018-08-22T00:00:00", "Temporarily Suspended", "CX In Progress", [ null, "40.77575159629016", "-73.95850007953584", null, false ] ]
+, [ 165, "919B94AE-D51A-419C-B474-9677E7D2291E", 165, 1533846691, "994730", 1533846691, "994730", null, "LINK-011156", "mn-07-134429", "2017 BROADWAY", "WEST 69 STREET", "WEST 68 STREET", "SW", "Manhattan", "10023", "107", "6", "Yes", "Lincoln Square", "C4-6A", "Lincoln Square", "1015300", "1028950", "1011407501", "40.77623753", "-73.98233804", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Active!", [ null, "40.77623753", "-73.98233804", null, false ] ]
+, [ 166, "18347E8F-5178-4DE6-98DC-DD8E039B371F", 166, 1533846691, "994730", 1533846691, "994730", null, "LINK-013124", "qu-01-125213", "29-29 DITMARS BOULEVARD", "31 STREET", "29 STREET", "NW", "Queens", "11105", "401", "22", "No", null, "C4-2A", "Steinway", "4011300", "4017713", "4008460067", "40.776294456568536", "-73.91083959767218", "2018-03-15T00:00:00", "2018-09-15T00:00:00", "Temporarily Suspended", "Ready to Submit to DOT", [ null, "40.776294456568536", "-73.91083959767218", null, false ] ]
+, [ 167, "28F6D2BA-1581-401C-BF6B-179F7EA4ABDF", 167, 1533846691, "994730", 1533846691, "994730", null, "LINK-010778", "mn-08-121041", "29 EAST 80 STREET", "MADISON AVENUE", "5 AVENUE", "NW", "Manhattan", "10028", "108", "4", "Yes", "Madison Avenue", "C5-1", "Upper East Side-Carnegie Hill", "1014200", "1046616", "1014920015", "40.77713716", "-73.96181269", "2018-02-12T00:00:00", "2018-08-12T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.77713716", "-73.96181269", null, false ] ]
+, [ 168, "76FF3A68-E771-4141-AFBC-048BC2D38360", 168, 1533846691, "994730", 1533846691, "994730", null, "LINK-011216", "qu-01-139071", "28-09 DITMARS BOULEVARD", "28 STREET", "29 STREET", "MIDBLOCK", "Queens", "11105", "401", "22", "No", null, "C1-3", "Steinway", "4011300", "4017722", "4008470004", "40.77714167", "-73.91201365", "2018-07-18T00:00:00", "2019-01-18T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.77714167", "-73.91201365", null, false ] ]
+, [ 169, "44921E72-34B0-4038-A1F4-854C1A0C61E0", 169, 1533846691, "994730", 1533846691, "994730", null, "LINK-012369", "mn-07-144086", "58 WEST 72 STREET", "COLUMBUS AVENUE", "CENTRAL PARK WEST", "SE", "Manhattan", "10023", "107", "6", "Yes", "Columbus Avenue", "C1-5", "Lincoln Square", "1015700", "1028626", "1011240062", "40.77724121", "-73.9786294", "2018-05-08T00:00:00", "2018-11-08T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.77724121", "-73.9786294", null, false ] ]
+, [ 170, "12F37669-51E4-4747-A9A7-ACC05878C71D", 170, 1533846691, "994730", 1533846691, "994730", null, "LINK-014589", "qu-01-125210", "21-05 31 STREET", "21 AVENUE", "DITMARS BOULEVARD", "SE", "Queens", "11105", "401", "22", "No", null, "C1-3", "Steinway", "4011300", "4016928", "4008310029", "40.77776189925103", "-73.90861714603278", "2018-07-24T00:00:00", "2019-01-24T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.77776189925103", "-73.90861714603278", null, false ] ]
+, [ 171, "04A00AB8-4F54-4ACF-B3DA-388CB6DAA3BE", 171, 1533846691, "994730", 1533846691, "994730", null, "LINK-014562", "qu-01-125232", "29-23 21 AVENUE", "31 STREET", "29 STREET", "NW", "Queens", "11105", "401", "22", "No", "4017846", "C1-3", "Steinway", "4011100", "4017846", "4008480069", "40.778167226254034", "-73.90864162528487", "2018-03-27T00:00:00", "2018-09-27T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.778167226254034", "-73.90864162528487", null, false ] ]
+, [ 172, "5B2AA16C-B7C8-4CFF-8754-4EA04C7F4C07", 172, 1533846691, "994730", 1533846691, "994730", null, "LINK-010633", "mn-07-133371", "481 COLUMBUS AVENUE", "WEST 83 STREET", "WEST 84 STREET", "NE", "Manhattan", "10024", "107", "6", "No", null, "C1-8A", "Upper West Side", "1016900", "1031213", "1011970001", "40.78461205", "-73.97340729", "2018-04-05T00:00:00", "2018-10-05T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.78461205", "-73.97340729", null, false ] ]
+, [ 173, "FFD6C023-B6B4-4D6A-8DBB-93FF104498CB", 173, 1533846691, "994730", 1533846691, "994730", null, "LINK-010610", "mn-07-134114", "77 WEST 85 STREET", "COLUMBUS AVENUE", "CENTRAL PARK WEST", "NE", "Manhattan", "10024", "107", "6", "No", null, "C1-8A", "Upper West Side", "1016900", "1031349", "1011990001", "40.78577387575239", "-73.97246279197128", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Active!", [ null, "40.78577387575239", "-73.97246279197128", null, false ] ]
+, [ 174, "8B53FCCC-8B9B-412E-B8BC-1424A4F316F0", 174, 1533846691, "994730", 1533846691, "994730", null, "LINK-012719", "mn-07-134649", "546 COLUMBUS AVENUE", "WEST 87 STREET", "WEST 86 STREET", "MIDBLOCK", "Manhattan", "10024", "107", "6", "No", null, "C1-5", "Upper West Side", "1017300", "1032201", "1012170035", "40.78689922", "-73.97200919", "2018-08-02T00:00:00", "2019-02-02T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.78689922", "-73.97200919", null, false ] ]
+, [ 175, "3636D918-6717-4A3E-9C43-87EC0B4ECEF8", 175, 1533846691, "994730", 1533846691, "994730", null, "LINK-011872", "mn-07-121262", "580 COLUMBUS AVENUE", "WEST 88 STREET", "WEST 89 STREET", "NW", "Manhattan", "10024", "107", "6", "No", null, "C1-9", "Upper West Side", "1017300", "1032320", "1012197501", "40.78793929", "-73.971248", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.78793929", "-73.971248", null, false ] ]
+, [ 176, "3917F7AF-27CC-4D33-A039-A774D7950697", 176, 1533846691, "994730", 1533846691, "994730", null, "LINK-010682", "mn-07-121120", "82 WEST 91 STREET", "COLUMBUS AVENUE", "CENTRAL PARK WEST", "SE", "Manhattan", "10024", "107", "6", "No", null, "C1-9", "Upper West Side", "1017700", "1031595", "1012040001", "40.78954120369504", "-73.96964430757794", "2018-04-03T00:00:00", "2018-10-03T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.78954120369504", "-73.96964430757794", null, false ] ]
+, [ 177, "01800C87-DA24-40F7-97C3-A30891E3F582", 177, 1533846691, "994730", 1533846691, "994730", null, "LINK-012545", "mn-07-133679", "638 COLUMBUS AVENUE", "WEST 91 STREET", "WEST 90 STREET", "SW", "Manhattan", "10024", "107", "6", "No", null, "C1-9", "Upper West Side", "1017700", "1083226", "1012210029", "40.78962178", "-73.97002379", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.78962178", "-73.97002379", null, false ] ]
+, [ 178, "56FC75D5-BC2B-478C-82B1-4EE84BF89A06", 178, 1533846691, "994730", 1533846691, "994730", null, "LINK-011166", "mn-07-133677", "647 COLUMBUS AVENUE", "WEST 91 STREET", "WEST 92 STREET", "NE", "Manhattan", "10025", "107", "6", "No", null, "C1-9", "Upper West Side", "1017700", "1031623", "1012050001", "40.78975296", "-73.96966801", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.78975296", "-73.96966801", null, false ] ]
+, [ 179, "66C026E3-E7C2-43D4-8D0C-93E8CB2A61B2", 179, 1533846691, "994730", 1533846691, "994730", null, "LINK-012846", "mn-11-120133", "149 EAST 103 STREET", "LEXINGTON AVENUE", "PARK AVENUE", "NW", "Manhattan", "10029", "111", "8", "No", null, "C1-5", "East Harlem South", "1016600", "1051915", "1016310023", "40.790432068560506", "-73.94781791147113", "2018-06-05T00:00:00", "2018-12-05T00:00:00", "In Progress", "Ready for ConEd", [ null, "40.790432068560506", "-73.94781791147113", null, false ] ]
+, [ 180, "9CB98971-A430-42C8-8A53-6AA1D6585B24", 180, 1533846691, "994730", 1533846691, "994730", null, "LINK-012769", "mn-07-135057", "661 COLUMBUS AVENUE", "WEST 92 STREET", "WEST 93 STREET", "NE", "Manhattan", "10025", "107", "6", "No", null, "C1-9", "Upper West Side", "1017700", "1031627", "1012060001", "40.79044448", "-73.96915525", "2018-03-27T00:00:00", "2018-09-27T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.79044448", "-73.96915525", null, false ] ]
+, [ 181, "84F0A04F-1019-42CA-B524-1A6892029150", 181, 1533846691, "994730", 1533846691, "994730", null, "LINK-012756", "mn-07-134478", "697 COLUMBUS AVENUE", "WEST 94 STREET", "WEST 93 STREET", "SE", "Manhattan", "10025", "107", "6", "No", null, "C2-8", "Upper West Side", "1017700", "1079516", "1012070001", "40.79136497", "-73.96848492", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "Temporarily Suspended", "CX In Progress", [ null, "40.79136497", "-73.96848492", null, false ] ]
+, [ 182, "658165A0-DCAD-4F0F-996A-F0911E6FDD8C", 182, 1533846691, "994730", 1533846691, "994730", null, "LINK-013240", "mn-07-134646", "700 COLUMBUS AVENUE", "WEST 94 STREET", "WEST 95 STREET", "NW", "Manhattan", "10025", "107", "6", "No", null, "C1-9", "Upper West Side", "1018100", "1032562", "1012250029", "40.79178992", "-73.96844055", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.79178992", "-73.96844055", null, false ] ]
+, [ 183, "3F6C1EBC-597A-4DE3-A001-5DC5804A1833", 183, 1533846691, "994730", 1533846691, "994730", null, "LINK-011183", "mn-07-134709", "715 COLUMBUS AVENUE", "WEST 94 STREET", "WEST 95 STREET", "MIDBLOCK", "Manhattan", "10025", "107", "6", "No", null, "C1-9", "Upper West Side", "1018100", "1079519", "1012080001", "40.79179421", "-73.96817662", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.79179421", "-73.96817662", null, false ] ]
+, [ 184, "761B858C-D71F-4872-B687-DB9DAE8B9FA3", 184, 1533846691, "994730", 1533846691, "994730", null, "LINK-014526", "mn-07-134417", "700 COLUMBUS AVENUE", "WEST 95 STREET", "WEST 94 STREET", "SW", "Manhattan", "10025", "107", "6", "No", null, "C1-9", "Upper West Side", "1018100", "1032562", "1012250029", "40.79209032", "-73.96821903", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.79209032", "-73.96821903", null, false ] ]
+, [ 185, "48AD707F-9839-48C6-B40C-AEA9D2BEC79C", 185, 1533846691, "994730", 1533846691, "994730", null, "LINK-012812", "mn-07-137438", "99 WEST 95 STREET", "COLUMBUS AVENUE", "CENTRAL PARK WEST", "NE", "Manhattan", "10025", "107", "6", "No", null, "C1-9", "Upper West Side", "1018100", "1031706", "1012090001", "40.79214546", "-73.96779256", "2018-08-02T00:00:00", "2019-02-02T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.79214546", "-73.96779256", null, false ] ]
+, [ 186, "AE275D53-6CD6-4A6E-B81D-6EFDA9607F14", 186, 1533846691, "994730", 1533846691, "994730", null, "LINK-012664", "mn-07-134380", "100 WEST 96 STREET", "COLUMBUS AVENUE", "AMSTERDAM AVENUE", "SW", "Manhattan", "10025", "107", "6", "No", null, "C1-9", "Upper West Side", "1018100", "1082743", "1012260029", "40.79287882", "-73.96781267", "2018-08-02T00:00:00", "2019-02-02T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.79287882", "-73.96781267", null, false ] ]
+, [ 187, "6AC395A6-409E-4DB0-91FA-25724B8D5EEE", 187, 1533846691, "994730", 1533846691, "994730", null, "LINK-011189", "mn-07-135658", "715 AMSTERDAM AVENUE", "WEST 95 STREET", "WEST 94 STREET", "SE", "Manhattan", "10025", "107", "6", "No", null, "C2-8", "Upper West Side", "1018100", "1032551", "1012250001", "40.79316136", "-73.97089386", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Active!", [ null, "40.79316136", "-73.97089386", null, false ] ]
+, [ 188, "9695C0DB-6FBA-4D6A-AD6E-E91D8D9D1B68", 188, 1533846691, "994730", 1533846691, "994730", null, "LINK-010786", "mn-07-120527", "741 COLUMBUS AVENUE", "WEST 97 STREET", "WEST 96 STREET", "SE", "Manhattan", "10025", "107", "7", "No", null, "C1-9", "Upper West Side", "1018100", "1055254", "1018327502", "40.793402085795286", "-73.96700523950693", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.793402085795286", "-73.96700523950693", null, false ] ]
+, [ 189, "163B192F-0ADD-4C71-82FC-113C3D8FBF79", 189, 1533846691, "994730", 1533846691, "994730", null, "LINK-003476", "mn-07-135629", "733 AMSTERDAM AVENUE", "WEST 95 STREET", "WEST 96 STREET", "NE", "Manhattan", "10025", "107", "6", "No", null, "C2-8", "Upper West Side", "1018100", "1032587", "1012267502", "40.79343638", "-73.97068391", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "DOT In Progress", [ null, "40.79343638", "-73.97068391", null, false ] ]
+, [ 190, "570F3AB8-9FC4-446D-9064-0A036DA99FAC", 190, 1533846691, "994730", 1533846691, "994730", null, "LINK-012820", "mn-07-135447", "125 WEST 97 STREET", "COLUMBUS AVENUE", "AMSTERDAM AVENUE", "NW", "Manhattan", "10025", "107", "7", "Yes", "Columbus/Amsterdam", "C1-5", "Upper West Side", "1018500", "1088746", "1018520005", "40.79368231", "-73.96721133", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.79368231", "-73.96721133", null, false ] ]
+, [ 191, "28BA5806-2CAE-4F4C-880C-FFF9C5632B17", 191, 1533846691, "994730", 1533846691, "994730", null, "LINK-003477", "mn-07-135446", "733 AMSTERDAM AVENUE", "WEST 96 STREET", "WEST 95 STREET", "SEC", "Manhattan", "10025", "107", "6", "No", null, "C2-8", "Upper West Side", "1018100", "1032587", "1012267502", "40.793867", "-73.970376", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.793867", "-73.970376", null, false ] ]
+, [ 192, "C6F49E23-AFBF-435B-A52D-FC87EF0C993C", 192, 1533846691, "994730", 1533846691, "994730", null, "LINK-012623", "mn-07-133639", "2600 BROADWAY", "WEST 98 STREET", "WEST 99 STREET", "NE", "Manhattan", "10025", "107", "7", "No", null, "C1-5", "Upper West Side", "1018700", "1082691", "1018707502", "40.79599586", "-73.97059943", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Active!", [ null, "40.79599586", "-73.97059943", null, false ] ]
+, [ 193, "4B799DFF-834A-4D24-A959-48B6BEB594CF", 193, 1533846691, "994730", 1533846691, "994730", null, "LINK-012788", "mn-07-136701", "921 COLUMBUS AVENUE", "WEST 105 STREET", "WEST 106 STREET", "MIDBLOCK", "Manhattan", "10025", "107", "7", "Yes", "Columbus/Amsterdam", "C1-5", "Upper West Side", "1018900", "1055593", "1018410003", "40.79871675", "-73.96311539", "2018-04-03T00:00:00", "2018-10-03T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.79871675", "-73.96311539", null, false ] ]
+, [ 194, "A854012F-DF87-45C6-896C-3370279482F6", 194, 1533846691, "994730", 1533846691, "994730", null, "LINK-012621", "mn-07-134372", "2721 BROADWAY", "WEST 104 STREET", "WEST 105 STREET", "MIDBLOCK", "Manhattan", "10025", "107", "6", "No", null, "C1-5", "Upper West Side", "1019100", "1056583", "1018760007", "40.80009304", "-73.9682952", "2018-05-02T00:00:00", "2018-11-02T00:00:00", "Installed", "Link Pending Activation", [ null, "40.80009304", "-73.9682952", null, false ] ]
+, [ 195, "2B9A5CD9-B6AB-4A02-871E-0ABE485A063B", 195, 1533846691, "994730", 1533846691, "994730", null, "LINK-001596", "mn-07-120277", "251 WEST 105 STREET", "BROADWAY", "WEST END AVENUE", "NWC", "Manhattan", "10025", "107", "6", "No", null, "C1-5", "Upper West Side", "1019100", "1056607", "1018770001", "40.800681", "-73.96826", "2018-06-07T00:00:00", "2018-12-07T00:00:00", "In Progress", "Ready to Install", [ null, "40.800681", "-73.96826", null, false ] ]
+, [ 196, "DB4020F3-245D-4465-9AE0-A88411676951", 196, 1533846691, "994730", 1533846691, "994730", null, "LINK-004812", "mn-07-102695", "175 WEST 107 STREET", "AMSTERDAM AVENUE", "COLUMBUS AVENUE", "NE", "Manhattan", "10025", "107", "7", "Yes", "Columbus/Amsterdam", "C2-5", "Morningside Heights", "1019300", "1055983", "1018620001", "40.80104973", "-73.96493891", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.80104973", "-73.96493891", null, false ] ]
+, [ 197, "ED92E4A9-B729-4BBF-A626-049822D76077", 197, 1533846691, "994730", 1533846691, "994730", null, "LINK-011379", "mn-11-120309", "2397 2 AVENUE", "EAST 123 STREET", "EAST 122 STREET", "SW", "Manhattan", "10035", "111", "8", "No", null, "C1-2", "East Harlem North", "1019400", "1054629", "1017870080", "40.801404555411914", "-73.9347043913429", "2018-03-14T00:00:00", "2018-09-14T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.801404555411914", "-73.9347043913429", null, false ] ]
+, [ 198, "FFC64A20-C97A-45EF-BAE7-625F6A3BAB72", 198, 1533846691, "994730", 1533846691, "994730", null, "LINK-005933", "mn-11-120248", "2265 3 AVENUE", "EAST 123 STREET", "EAST 124 STREET", "MIDBLOCK", "Manhattan", "10035", "111", "8", "No", null, "C4-4", "East Harlem North", "1019400", "1054630", "1017880001", "40.802636973451506", "-73.93646798280338", "2018-03-28T00:00:00", "2018-09-28T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.802636973451506", "-73.93646798280338", null, false ] ]
+, [ 199, "095E952C-1B99-4D5D-BC7B-12C43218C2F3", 199, 1533846691, "994730", 1533846691, "994730", null, "LINK-010190", "mn-10-100212", "2134 FREDERICK DOUGLASS BOULEVARD", "WEST 115 STREET", "WEST 116 STREET", "MIDBLOCK", "Manhattan", "10026", "110", "9", "No", null, "C1-4", "Central Harlem South", "1021800", "1055221", "1018310003", "40.80391517", "-73.9556336", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.80391517", "-73.9556336", null, false ] ]
+, [ 200, "6066BB67-F494-4D8D-A280-FB903F150CE8", 200, 1533846691, "994730", 1533846691, "994730", null, "LINK-001607", "mn-09-134414", "2853 BROADWAY", "WEST 111 STREET", "WEST 110 STREET", "W MID", "Manhattan", "10025", "109", "7", "No", null, "C1-4", "Morningside Heights", "1019900", "1075440", "1018947501", "40.80464541", "-73.96657376", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "In Progress", "CX In Progress", [ null, "40.80464541", "-73.96657376", null, false ] ]
+, [ 201, "CD3E800E-8FC1-4AFC-A887-FA0C95B9D009", 201, 1533846691, "994730", 1533846691, "994730", null, "LINK-001693", "mn-09-134545", "2900 BROADWAY", "WEST 113 STREET", "WEST 114 STREET", "NE", "Manhattan", "10025", "109", "7", "No", null, "C1-4", "Morningside Heights", "1019900", "1057018", "1018857501", "40.80612044", "-73.96505998", "2018-04-05T00:00:00", "2018-10-05T00:00:00", "Temporarily Suspended", "Ready for CX", [ null, "40.80612044", "-73.96505998", null, false ] ]
+, [ 202, "8F26FB71-1AB1-49FE-A898-F47F13C54D04", 202, 1533846691, "994730", 1533846691, "994730", null, "LINK-013019", "bx-01-119011", "548 EAST 138 STREET", "ST. ANN'S AVENUE", "BROOK AVENUE", "SW", "Bronx", "10454", "201", "8", "No", null, "C1-4", "Mott Haven-Port Morris", "2002500", "2000047", "2022650045", "40.80681954", "-73.9176574", "2018-05-03T00:00:00", "2018-11-03T00:00:00", "Installed", "Link Active!", [ null, "40.80681954", "-73.9176574", null, false ] ]
+, [ 203, "6B5C04A1-A701-48A7-A973-1A9EB3250716", 203, 1533846691, "994730", 1533846691, "994730", null, "LINK-013355", "mn-10-119999", "2217 FREDERICK DOUGLASS BOULEVARD", "WEST 120 STREET", "WEST 119 STREET", "SWC", "Manhattan", "10026", "110", "9", "No", null, "C1-4", "Central Harlem South", "1025700", "1077815", "1019460029", "40.80693399", "-73.95365112", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.80693399", "-73.95365112", null, false ] ]
+, [ 204, "1CD7E6EF-B30B-4695-8367-2812868D0DB3", 204, 1533846691, "994730", 1533846691, "994730", null, "LINK-020541", "bx-01-146086", "216 WILLIS AVENUE", "EAST 137 STREET", "EAST 136 STREET", "SE", "Bronx", "10454", "201", "8", "No", null, "C1-4", "Mott Haven-Port Morris", "2002500", "2118034", "2022810006", "40.80829273", "-73.92333228", "2018-05-08T00:00:00", "2018-11-08T00:00:00", "Installed", "Link Active!", [ null, "40.80829273", "-73.92333228", null, false ] ]
+, [ 205, "B8CA5D7E-4B7A-454C-81FF-7F948AF6C5C3", 205, 1533846691, "994730", 1533846691, "994730", null, "LINK-010208", "bx-01-102011", "417 EAST 138 STREET", "WILLIS AVENUE", "BROWN PLACE", "MIDBLOCK", "Bronx", "10454", "201", "8", "No", null, "C1-4", "Mott Haven-Port Morris", "2003900", "2092092", "2022830001", "40.80890966", "-73.92220947", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Active!", [ null, "40.80890966", "-73.92220947", null, false ] ]
+, [ 206, "08EC9F95-99DB-4CA7-A103-EDE970EFF892", 206, 1533846691, "994730", 1533846691, "994730", null, "LINK-014445", "mn-10-120619", "323 WEST 125 STREET", "ST. NICHOLAS AVENUE", "FREDERICK DOUGLASS BOULEVARD", "NE", "Manhattan", "10027", "110", "9", "Yes", "125th Street", "C4-4D", "Central Harlem South", "1025700", "1059310", "1019520019", "40.8107599", "-73.95232207", "2018-02-12T00:00:00", "2018-08-12T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.8107599", "-73.95232207", null, false ] ]
+, [ 207, "66B57BD1-111B-4E6A-9115-3DCD8D53888D", 207, 1533846691, "994730", 1533846691, "994730", null, "LINK-011998", "mn-09-120493", "380 WEST 125 STREET", "MORNINGSIDE AVENUE", "ST. NICHOLAS AVENUE", "SE", "Manhattan", "10027", "109", "9", "Yes", "125th Street", "C4-4D", "Morningside Heights", "1020901", "1087468", "1019510004", "40.811204832617264", "-73.95384877572997", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Pending Activation", [ null, "40.811204832617264", "-73.95384877572997", null, false ] ]
+, [ 208, "0EE3605D-676A-4469-BEAC-EE137D948A67", 208, 1533846691, "994730", 1533846691, "994730", null, "LINK-004820", "mn-09-118158", "1290 AMSTERDAM AVENUE", "WEST 123 STREET", "WEST 125 STREET", "W MID", "Manhattan", "10027", "109", "7", "No", null, "C1-4", "Morningside Heights", "1021100", "1084108", "1019780001", "40.811845", "-73.957517", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.811845", "-73.957517", null, false ] ]
+, [ 209, "7611A75B-06A4-40BF-A679-16BBCCD0C071", 209, 1533846691, "994730", 1533846691, "994730", null, "LINK-011500", "bx-01-119027", "718 EAST 149 STREET", "JACKSON AVENUE", "CONCORD AVENUE", "SE", "Bronx", "10455", "201", "8", "No", null, "C2-4", "Mott Haven-Port Morris", "2003500", "2003924", "2025790019", "40.81312832", "-73.90899141", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Active!", [ null, "40.81312832", "-73.90899141", null, false ] ]
+, [ 210, "27F042FB-F796-40F0-A179-8A0FAC9B34D7", 210, 1533846691, "994730", 1533846691, "994730", null, "LINK-018187", "mn-09-GF0021", "1467 AMSTERDAM AVENUE", "WEST 133 STREET", "WEST 131 STREET", "MIDBLOCK", "Manhattan", "10027", "109", "9", "No", null, "C1-4", "Manhattanville", "1021303", "1059636", "1019700065", "40.81715705", "-73.95336989", "2018-05-15T00:00:00", "2018-11-15T00:00:00", "In Progress", "Ready to Install", [ null, "40.81715705", "-73.95336989", null, false ] ]
+, [ 211, "7EE36B14-95A8-4807-A20A-A13AE3A58F87", 211, 1533846691, "994730", 1533846691, "994730", null, "LINK-010240", "bx-01-107434", "721 WESTCHESTER AVENUE", "FOREST AVENUE", "EAST 156 STREET", "NE", "Bronx", "10455", "201", "17", "No", null, "C2-4", "Melrose South-Mott Haven North", "2007500", "2004571", "2026450043", "40.81755258", "-73.9062182", "2018-02-22T00:00:00", "2018-08-22T00:00:00", "In Progress", "ConEd in Progress", [ null, "40.81755258", "-73.9062182", null, false ] ]
+, [ 212, "2BA35DB6-68D8-4E68-BDDB-A275738F4678", 212, 1533846691, "994730", 1533846691, "994730", null, "LINK-011714", "bx-02-119034", "840 WESTCHESTER AVENUE", "LONGWOOD AVENUE", "PROSPECT AVENUE", "SW", "Bronx", "10459", "202", "17", "No", null, "C1-4", "Longwood", "2008700", "2115863", "2026890048", "40.81973114646875", "-73.90129296339637", "2018-02-22T00:00:00", "2018-08-22T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.81973114646875", "-73.90129296339637", null, false ] ]
+, [ 213, "58321577-98BE-4144-99CC-A5169E1C953F", 213, 1533846691, "994730", 1533846691, "994730", null, "LINK-011182", "mn-09-135705", "3421 BROADWAY", "WEST 140 STREET", "WEST 139 STREET", "NW", "Manhattan", "10031", "109", "7", "No", null, "C1-4", "Hamilton Heights", "1022500", "1062310", "1020870093", "40.82285389", "-73.95329055", "2018-02-13T00:00:00", "2018-08-13T00:00:00", "Installed", "Link Active!", [ null, "40.82285389", "-73.95329055", null, false ] ]
+, [ 214, "24CD16B6-7E9A-48F3-841C-0C3D1AA0C132", 214, 1533846691, "994730", 1533846691, "994730", null, "LINK-011397", "bx-03-118929", "860 MELROSE AVENUE", "EAST 160 STREET", "EAST 161 STREET", "NE", "Bronx", "10451", "203", "17", "No", null, "C1-4", "Morrisania-Melrose", "2014100", "2001490", "2023820001", "40.82364629", "-73.91402994", "2018-05-03T00:00:00", "2018-11-03T00:00:00", "Installed", "Link Active!", [ null, "40.82364629", "-73.91402994", null, false ] ]
+, [ 215, "363BA508-4785-4735-8DCF-882947C33CF9", 215, 1533846691, "994730", 1533846691, "994730", null, "LINK-020521", "BX-04-GF22092", "3201 PARK AVENUE", "EAST 161 STREET", "TELLER AVENUE", "MIDBLOCK", "Bronx", "10451", "204", "17", "No", "2001939", "C2-4", "East Concourse-Concourse Village", "2017300", "2001939", "2024210036", "40.82525201616481", "-73.91632782437176", "2018-05-10T00:00:00", "2018-11-10T00:00:00", "Temporarily Suspended", "Ready for CX", [ null, "40.82525201616481", "-73.91632782437176", null, false ] ]
+, [ 216, "91870332-E679-4E41-B385-8B066F4F079C", 216, 1533846691, "994730", 1533846691, "994730", null, "LINK-010215", "mn-10-102793", "2829 FREDERICK DOUGLASS BOULEVARD", "WEST 151 STREET", "WEST 150 STREET", "SWC", "Manhattan", "10039", "110", "9", "No", null, "C1-4", "Central Harlem North-Polo Grounds", "1023502", "1079807", "1020460015", "40.82657309", "-73.93932691", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.82657309", "-73.93932691", null, false ] ]
+, [ 217, "D48664B5-D1DF-4613-AA34-8E10D3EF39B5", 217, 1533846691, "994730", 1533846691, "994730", null, "LINK-011177", "mn-09-134111", "1760 AMSTERDAM AVENUE", "WEST 148 STREET", "WEST 147 STREET", "NW", "Manhattan", "10031", "109", "7", "No", null, "C1-4", "Hamilton Heights", "1023300", "1061983", "1020790029", "40.82670709", "-73.9466648", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Active!", [ null, "40.82670709", "-73.9466648", null, false ] ]
+, [ 218, "9A66E59C-B206-4E5F-833E-9AC31993576E", 218, 1533846691, "994730", 1533846691, "994730", null, "LINK-012542", "mn-09-136457", "1780 AMSTERDAM AVENUE", "WEST 149 STREET", "WEST 148 STREET", "NW", "Manhattan", "10031", "109", "7", "No", null, "C1-4", "Hamilton Heights", "1023300", "1062033", "1020800030", "40.82730494", "-73.94622593", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Active!", [ null, "40.82730494", "-73.94622593", null, false ] ]
+, [ 219, "BD4D0CBE-FC78-4F22-B36C-A4ADBB3D0CAB", 219, 1533846691, "994730", 1533846691, "994730", null, "LINK-012732", "mn-10-136297", "2854 FREDERICK DOUGLASS BOULEVARD", "WEST 152 STREET", "WEST 153 STREET", "NE", "Manhattan", "10039", "110", "9", "No", null, "C1-4", "Central Harlem North-Polo Grounds", "1023600", "1083117", "1020380001", "40.82735608509041", "-73.93849286418032", "2018-08-02T00:00:00", "2019-02-02T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.82735608509041", "-73.93849286418032", null, false ] ]
+, [ 220, "504A3F7A-4A18-4F7D-BA00-9733E3145609", 220, 1533846691, "994730", 1533846691, "994730", null, "LINK-010347", "mn-10-142856", "2861 FREDERICK DOUGLASS BOULEVARD", "WEST 153 STREET", "WEST 152 STREET", "SWC", "Manhattan", "10039", "110", "9", "No", null, "C1-4", "Central Harlem North-Polo Grounds", "1023502", "1060875", "1020460063", "40.8278291", "-73.93839565", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.8278291", "-73.93839565", null, false ] ]
+, [ 221, "B39120D7-019E-40A7-B16A-D70ACBE2A2EB", 221, 1533846691, "994730", 1533846691, "994730", null, "LINK-012137", "mn-10-141310", "2906 FREDERICK DOUGLASS BOULEVARD", "WEST 154 STREET", "WEST 153 STREET", "SE", "Manhattan", "10039", "110", "9", "No", null, "C1-4", "Central Harlem North-Polo Grounds", "1023600", "1060627", "1020390061", "40.82838736", "-73.93772673", "2018-08-02T00:00:00", "2019-02-02T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.82838736", "-73.93772673", null, false ] ]
+, [ 222, "BE1B656A-4291-49EC-B799-E68D427603E3", 222, 1533846691, "994730", 1533846691, "994730", null, "LINK-010351", "mn-10-142854", "2912 FREDERICK DOUGLASS BOULEVARD", "154 STREET", "155 STREET", "NE", "Manhattan", "10039", "110", "9", "No", null, "C1-4", "Central Harlem North-Polo Grounds", "1023600", "1000000", "1020400003", "40.828560", "-73.937608", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.828560", "-73.937608", null, false ] ]
+, [ 223, "F1E8B0E4-670B-4F2F-9D97-D6FD88A204B2", 223, 1533846691, "994730", 1533846691, "994730", null, "LINK-010194", "mn-10-100267", "2911 FREDERICK DOUGLASS BOULEVARD", "WEST 154 STREET", "WEST 155 STREET", "NWC", "Manhattan", "10039", "110", "9", "No", null, "C1-4", "Central Harlem North-Polo Grounds", "1023502", "1060895", "1020470029", "40.828655", "-73.93780363", "2018-08-01T00:00:00", "2019-02-01T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.828655", "-73.93780363", null, false ] ]
+, [ 224, "AF2A703F-D3C0-4A1A-BB39-57C33EFA2BD0", 224, 1533846691, "994730", 1533846691, "994730", null, "LINK-011040", "mn-10-145541", "2926 FREDERICK DOUGLASS BOULEVARD", "WEST 155 STREET", "WEST 154 STREET", "SE", "Manhattan", "10039", "110", "9", "No", null, "C8-3", "Central Harlem North-Polo Grounds", "1023600", "1000000", "1020400061", "40.82900248", "-73.93727923", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.82900248", "-73.93727923", null, false ] ]
+, [ 225, "C6D5D361-CDA7-4297-BAFE-DDB9B214B8A5", 225, 1533846691, "994730", 1533846691, "994730", null, "LINK-012164", "mn-10-100233", "2927 FREDERICK DOUGLASS BOULEVARD", "WEST 155 STREET", "WEST 156 STREET", "NWC", "Manhattan", "10039", "110", "9", "No", null, "C1-4", "Central Harlem North-Polo Grounds", "1024302", "1082089", "1021060003", "40.82940149", "-73.93724625", "2018-08-02T00:00:00", "2019-02-02T00:00:00", "In Progress", "CX In Progress", [ null, "40.82940149", "-73.93724625", null, false ] ]
+, [ 226, "6A16A3F7-A13D-489F-BC15-E0C20775CB4A", 226, 1533846691, "994730", 1533846691, "994730", null, "LINK-012543", "mn-09-134427", "1865 AMSTERDAM AVENUE", "WEST 153 STREET", "WEST 152 STREET", "NE", "Manhattan", "10031", "109", "7", "No", null, "C2-4", "Hamilton Heights", "1023501", "1061607", "1020670001", "40.82973306", "-73.94420042", "2018-02-13T00:00:00", "2018-08-13T00:00:00", "Installed", "Link Active!", [ null, "40.82973306", "-73.94420042", null, false ] ]
+, [ 227, "6EA9163A-C7A3-4D10-926C-5419AA6B727F", 227, 1533846691, "994730", 1533846691, "994730", null, "LINK-002075", "mn-12-135063", "3798 BROADWAY", "WEST 157 STREET", "WEST 158 STREET", "SEC", "Manhattan", "10032", "112", "7", "No", null, "C4-4", "Washington Heights South", "1024100", "1084193", "1021160001", "40.834513", "-73.944329", "2018-02-13T00:00:00", "2018-08-13T00:00:00", "Installed", "Link Active!", [ null, "40.834513", "-73.944329", null, false ] ]
+, [ 228, "35A6EE06-E7EF-45A6-ABAC-9C4EC40DD057", 228, 1533846691, "994730", 1533846691, "994730", null, "LINK-002119", "mn-12-111793", "3896 BROADWAY", "WEST 163 STREET", "WEST 162 STREET", "SEC", "Manhattan", "10032", "112", "7", "No", null, "C1-4", "Washington Heights South", "1024500", "1062923", "1021220052", "40.837611", "-73.942066", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Temporarily Suspended", "Ready for CX", [ null, "40.837611", "-73.942066", null, false ] ]
+, [ 229, "E1C32FAD-CFC5-4A7E-8C27-400F0AA314D7", 229, 1533846691, "994730", 1533846691, "994730", null, "LINK-010198", "bx-06-101312", "1917 SOUTHERN BOULEVARD", "ELSMERE PLACE", "FAIRMOUNT PLACE", "SW", "Bronx", "10460", "206", "17", "No", null, "C1-4", "East Tremont", "2036502", "2010153", "2029600039", "40.84183354", "-73.88597436", "2018-04-26T00:00:00", "2018-10-26T00:00:00", "Installed", "Link Active!", [ null, "40.84183354", "-73.88597436", null, false ] ]
+, [ 230, "81AF4373-20C4-42B3-8FFF-EC1103588235", 230, 1533846691, "994730", 1533846691, "994730", null, "LINK-004664", "mn-12-120796", "4100 BROADWAY", "WEST 173 STREET", "WEST 172 STREET", "SEC", "Manhattan", "10032", "112", "10", "No", null, "C1-4", "Washington Heights South", "1025300", "1063464", "1021410033", "40.84449293", "-73.93878768", "2018-03-06T00:00:00", "2018-09-06T00:00:00", "Installed", "Link Installed; Connecting Power and Fiber", [ null, "40.84449293", "-73.93878768", null, false ] ]
+, [ 231, "3BC33E50-DE14-4DB8-9323-4B1DE6CFCA3B", 231, 1533846691, "994730", 1533846691, "994730", null, "LINK-020287", "mn-12-116022", "4139 BROADWAY", "WEST 175 STREET", "WEST 174 STREET", "SW", "Manhattan", "10033", "112", "10", "No", "1063517", "C1-4", "Washington Heights South", "1026300", "1063517", "1021420237", "40.84613596", "-73.93859507", "2018-02-21T00:00:00", "2018-08-21T00:00:00", "In Progress", "Ready to Submit to DOT", [ null, "40.84613596", "-73.93859507", null, false ] ]
+, [ 232, "FE090D6F-DF1B-452F-9C3D-EBFBA1EA032B", 232, 1533846691, "994730", 1533846691, "994730", null, "LINK-011542", "bx-06-119558", "631 EAST TREMONT AVENUE", "HUGHES AVENUE", "ARTHUR AVENUE", "NW", "Bronx", "10457", "206", "17", "No", null, "C4-5X", "East Tremont", "2037300", "2011992", "2030680098", "40.84618975767023", "-73.8921943283085", "2018-04-12T00:00:00", "2018-10-12T00:00:00", "Installed", "Link Active!", [ null, "40.84618975767023", "-73.8921943283085", null, false ] ]
+, [ 233, "073A897E-96D6-46A1-AE2D-E619EAEA210B", 233, 1533846691, "994730", 1533846691, "994730", null, "LINK-019312", "bx-05-146094", "2 CLIFFORD PLACE", "JEROME AVENUE", "TOWSEND AVENUE", "SE", "Bronx", "10453", "205", "14", "No", null, "C8-3", "Mount Hope", "2022701", "2008155", "2028480016", "40.846434", "-73.912958", "2018-05-21T00:00:00", "2018-11-21T00:00:00", "Installed", "Link Active!", [ null, "40.846434", "-73.912958", null, false ] ]
+, [ 234, "C1D01BD4-8047-4190-9EF8-F9B76238AA89", 234, 1533846691, "994730", 1533846691, "994730", null, "LINK-020581", "bx-06-146096", "4201 3 AVENUE", "EAST TREMONT AVENUE", "EAST 176 STREET", "SE", "Bronx", "10457", "206", "15", "No", null, "C4-5X", "Claremont-Bathgate", "2039500", "2009606", "2029240020", "40.8464767576844", "-73.89639315779851", "2018-05-10T00:00:00", "2018-11-10T00:00:00", "Installed", "Link Active!", [ null, "40.8464767576844", "-73.89639315779851", null, false ] ]
+, [ 235, "50142D3B-30EE-42E4-9B44-C4908070EA78", 235, 1533846691, "994730", 1533846691, "994730", null, "LINK-019313", "bx-05-146095", "1750 JEROME AVENUE", "EAST 175 STREET", "EAST 176 STREET", "NE", "Bronx", "10453", "205", "14", "No", null, "C2-4", "Mount Hope", "2022701", "2008207", "2028500001", "40.84779956", "-73.91213693", "2018-05-21T00:00:00", "2018-11-21T00:00:00", "Installed", "Link Active!", [ null, "40.84779956", "-73.91213693", null, false ] ]
+, [ 236, "7ED8899D-C503-49F1-AC53-18EB2E882F37", 236, 1533846691, "994730", 1533846691, "994730", null, "LINK-019315", "bx-05-146097", "1 EAST 177 STREET", "JEROME AVENUE", "WALTON AVENUE", "SE", "Bronx", "10453", "205", "14", "No", null, "C2-4", "Mount Hope", "2023301", "2008247", "2028530001", "40.85017299776705", "-73.91028172558197", "2018-05-21T00:00:00", "2018-11-21T00:00:00", "Installed", "Link Active!", [ null, "40.85017299776705", "-73.91028172558197", null, false ] ]
+, [ 237, "ED8CB6DF-CEB1-44F9-9452-6DDE5B8C4EC3", 237, 1533846691, "994730", 1533846691, "994730", null, "LINK-012042", "mn-12-120667", "1500 ST. NICHOLAS AVENUE", "WEST 185 STREET", "WEST 186 STREET", "NE", "Manhattan", "10033", "112", "10", "No", null, "C1-4", "Washington Heights North", "1026900", "1063778", "1021570033", "40.851831068016764", "-73.93177297189447", "2018-03-27T00:00:00", "2018-09-27T00:00:00", "Installed", "Link Pending Activation", [ null, "40.851831068016764", "-73.93177297189447", null, false ] ]
+, [ 238, "01153E96-DFD0-4DAF-BC72-919A4EA54431", 238, 1533846691, "994730", 1533846691, "994730", null, "LINK-011033", "bx-07-117868", "2415 JEROME AVENUE", "WEST FORDHAM ROAD", "WEST 184 STREET", "MIDBLOCK", "Bronx", "10468", "207", "14", "No", null, "C2-4", "Kingsbridge Heights", "2025300", "2014338", "2031990105", "40.86176218", "-73.90196472", "2018-04-12T00:00:00", "2018-10-12T00:00:00", "Installed", "Link Active!", [ null, "40.86176218", "-73.90196472", null, false ] ]
+ ]
+}
