@@ -1,1 +1,1 @@
-#Our wifi project called HotSpot. We hope to map all the free data kiosks using NYC's Open Data
+#Our wifi project called HotSpot. We hope to map all NYC Link kiosks using NYC's OpenData
