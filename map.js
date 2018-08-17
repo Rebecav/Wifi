@@ -6,7 +6,7 @@ var map;
 function init() {
 	ourLocation = ol.proj.fromLonLat([1006.100, 40.85]);
 	view = new ol.View({
-		center: ourLoc,
+		center: ourLocation,
 		zoom: 12
 	});
 
