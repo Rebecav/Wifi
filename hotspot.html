@@ -1,0 +1,33 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="hotspot.css" />
+  <link rel="stylesheet" href="https://openlayers.org/en/v4.6.4/css/ol.css" type="text/css">
+  	<script src="https://openlayers.org/en/v4.6.4/build/ol.js" type="text/javascript"></script>
+  	<script src="map_part5_get_country_information.js" type="text/javascript"></script>
+    <script src="map.js" type="text/javascript"></script>
+  </head>
+  <title>HotSpotNYC</title>
+  <body>
+
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  <div id="filter-records"> </div>
+  </div>
+
+
+<h1>HotSpotNYC</h1>
+<p>Your one stop .</p>
+<p>
+     <textarea id="city-name" rows="1" cols ="0" style=margin: 0px; width: 290px; height: 20px; >New York, USA</textarea>
+     
+     <button onclick="panToCounty()">Pan to Country</button>
+     <button onclick="panHome()">Back to Home</button>
+   </p>
+
+<div id="map" class="map"></div>
+
+  </body>
+
+</html>
